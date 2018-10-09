@@ -55,7 +55,8 @@
 /Users/yaozhong/Projects/HM/HM/obj/Debug/R.cs.flag
 /Users/yaozhong/Projects/HM/HM/obj/Debug/R.txt
 /Users/yaozhong/Projects/HM/HM/obj/Debug/uploadflags.txt
+/Users/yaozhong/Projects/HM/HM/obj/Debug/HM.csprojAssemblyReference.cache
+/Users/yaozhong/Projects/HM/HM/obj/Debug/res/layout/layout_item_search_result.xml
 /Users/yaozhong/Projects/HM/HM/bin/Debug/Mono.Android.pdb
 /Users/yaozhong/Projects/HM/HM/obj/Debug/linksrc/HM.pdb
 /Users/yaozhong/Projects/HM/HM/obj/Debug/linksrc/Mono.Android.pdb
-/Users/yaozhong/Projects/HM/HM/obj/Debug/HM.csprojAssemblyReference.cache

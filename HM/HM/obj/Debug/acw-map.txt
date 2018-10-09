@@ -16,6 +16,12 @@ hm.SpinnerAdapter;md5e141b617430c18caef0b3d28d69cb6c3.SpinnerAdapter
 HM.Source.search.SearchActivity, HM;com.companyname.HM.Source.search.SearchActivity
 HM.Source.search.SearchActivity;com.companyname.HM.Source.search.SearchActivity
 com.companyname.HM.Source.search.SearchActivity;com.companyname.HM.Source.search.SearchActivity
+HM.Source.search.SearchAdapter, HM;md558bc5bee9a40e13358734af70ba46d33.SearchAdapter
+HM.Source.search.SearchAdapter;md558bc5bee9a40e13358734af70ba46d33.SearchAdapter
+hm.source.search.SearchAdapter;md558bc5bee9a40e13358734af70ba46d33.SearchAdapter
+HM.Source.search.SearchAdapter+VH, HM;md558bc5bee9a40e13358734af70ba46d33.SearchAdapter_VH
+HM.Source.search.SearchAdapter.VH;md558bc5bee9a40e13358734af70ba46d33.SearchAdapter_VH
+hm.source.search.SearchAdapter_VH;md558bc5bee9a40e13358734af70ba46d33.SearchAdapter_VH
 Android.Support.V4.View.ActionProvider+ISubUiVisibilityListenerImplementor, Xamarin.Android.Support.Compat;mono.android.support.v4.view.ActionProvider_SubUiVisibilityListenerImplementor
 Android.Support.V4.View.ActionProvider.ISubUiVisibilityListenerImplementor;mono.android.support.v4.view.ActionProvider_SubUiVisibilityListenerImplementor
 mono.android.support.v4.view.ActionProvider_SubUiVisibilityListenerImplementor;mono.android.support.v4.view.ActionProvider_SubUiVisibilityListenerImplementor

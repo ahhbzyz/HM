@@ -4,6 +4,7 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical"
+    android:background="#ffffff"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
     
@@ -25,6 +26,7 @@
         android:layout_height="wrap_content">
         
      <RelativeLayout
+        android:focusableInTouchMode="true"
         android:elevation="3dp"
         android:padding="8dp"
         android:layout_marginStart="16dp"
@@ -56,12 +58,28 @@
           android:layout_height="250dp"
           class="com.google.android.gms.maps.MapFragment" />
         
-     <android.support.v7.widget.RecyclerView
-            android:layout_below="@+id/map"
-            android:id="@+id/recyclerView"
-            android:scrollbars="vertical"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent" />
+       <LinearLayout
+            android:id="@+id/ll_list"
+            android:layout_marginTop="220dp"
+            android:orientation="vertical"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent">
+            
+                    <ImageView
+                        android:id="@+id/img_bar"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginStart="4dp"
+                        android:layout_centerVertical="true"
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:src="@android:drawable/ic_menu_search"/>
+            
+             <android.support.v7.widget.RecyclerView
+                android:id="@+id/recyclerView"
+                android:scrollbars="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+       </LinearLayout>
         
         
     </RelativeLayout>
