@@ -11,6 +11,7 @@ using Android.Runtime;
 using Android.Util;
 using Android.Views;
 using Android.Widget;
+using HM.Source.payment;
 using HM.Source.search;
 
 namespace HM
@@ -50,11 +51,16 @@ namespace HM
             if (mCategories == null || mCategories.Count == 0) {
                 return;
             }
-            Intent intent = new Intent(Context, typeof(SearchActivity));
-            intent.PutExtra("categoryTitle", mCategories[e.Position].title);
-            intent.PutExtra("categoryImgResId", mCategories[e.Position].imgResId);
-            intent.PutExtra("categoryKey", mCategories[e.Position].key);
-            Context.StartActivity(intent);
+            if (e.Position == 0) {
+                Intent intent = new Intent(Context, typeof(PaymentAcitivity));
+                Context.StartActivity(intent);
+            } else {
+                Intent intent = new Intent(Context, typeof(SearchActivity));
+                intent.PutExtra("categoryTitle", mCategories[e.Position].title);
+                intent.PutExtra("categoryImgResId", mCategories[e.Position].imgResId);
+                intent.PutExtra("categoryKey", mCategories[e.Position].key);
+                Context.StartActivity(intent);
+            }
         }
     }
 }

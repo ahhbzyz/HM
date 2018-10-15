@@ -1,11 +1,11 @@
 ﻿using Android.App;
-using Android.Widget;
 using Android.OS;
 using System;
 using Android.Runtime;
 using Android.Support.V7.Widget;
 using System.Collections.Generic;
 using Android.Views;
+using Android.Widget;
 
 namespace HM.Source.search
 {
@@ -30,7 +30,7 @@ namespace HM.Source.search
                 return;
             }
             // Set toolbar
-            Toolbar toolbar = FindViewById<Toolbar>(Resource.Id.toolbar);
+            Android.Widget.Toolbar toolbar = FindViewById<Android.Widget.Toolbar>(Resource.Id.toolbar);
             toolbar.Title = categoryTitle;
             SetActionBar(toolbar);
             ActionBar.SetDisplayHomeAsUpEnabled(true);
