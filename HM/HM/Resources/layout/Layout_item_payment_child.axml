@@ -11,13 +11,31 @@
         android:orientation="vertical" android:layout_width="match_parent" 
               android:layout_height="wrap_content">
         
-          <TextView
+          <LinearLayout
+            android:gravity="center_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            
+            <TextView
+                android:layout_weight="1"
             android:textColor="?android:attr/textColorPrimary"
             tools:text="Name: "
             android:textSize="18sp"
             android:id="@+id/tv_name"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
+            
+                        <TextView
+                android:layout_weight="0"
+            android:textColor="@color/color_main"
+            android:text="Add to calendar"
+            android:textSize="14sp"
+            android:id="@+id/tv_add_to_calendar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+            
+        </LinearLayout>
     
        <TextView
             android:textColor="?android:attr/textColorPrimary"
@@ -58,16 +76,50 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
         
-          <Button
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+           android:layout_height="wrap_content">
+            
+              <Button
+                android:layout_weight="1"
                android:id="@+id/add"
            android:foreground="?android:attr/selectableItemBackground"
             android:layout_marginTop="12dp"
             android:layout_marginBottom="8dp"
             android:textColor="@android:color/white"
             android:background="@color/color_main"
-            android:text="Add to Calendar"
+            android:text="Add"
             android:layout_width="match_parent"
             android:layout_height="36dp"/>
+            
+              <Button
+                android:layout_marginStart="8dp"
+                             android:layout_weight="1"
+               android:id="@+id/edit"
+           android:foreground="?android:attr/selectableItemBackground"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="8dp"
+            android:textColor="@android:color/white"
+            android:background="@color/color_main"
+            android:text="Edit"
+            android:layout_width="match_parent"
+            android:layout_height="36dp"/>
+            
+              <Button
+                  android:layout_marginStart="8dp"
+                             android:layout_weight="1"
+               android:id="@+id/delete"
+           android:foreground="?android:attr/selectableItemBackground"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="8dp"
+            android:textColor="@android:color/white"
+            android:background="@color/color_main"
+            android:text="Delete"
+            android:layout_width="match_parent"
+            android:layout_height="36dp"/>
+            
+        </LinearLayout>
         
     </LinearLayout>
     

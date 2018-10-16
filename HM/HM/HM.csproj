@@ -130,6 +130,8 @@
     <Compile Include="Source\payment\Payment.cs" />
     <Compile Include="Source\payment\IPaymentTitle.cs" />
     <Compile Include="Source\payment\PaymentFactory.cs" />
+    <Compile Include="Source\payment\PaymentEditActivity.cs" />
+    <Compile Include="Source\payment\PaymentSpinnerAdapter.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
@@ -173,6 +175,7 @@
     <AndroidResource Include="Resources\layout\Activity_payment.axml" />
     <AndroidResource Include="Resources\layout\Layout_item_payment_parent.axml" />
     <AndroidResource Include="Resources\layout\Layout_item_payment_child.axml" />
+    <AndroidResource Include="Resources\layout\Activity_payment_edit.axml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\drawable\" />

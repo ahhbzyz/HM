@@ -1,14 +1,5 @@
 ﻿<Properties StartupConfiguration="{D0E8CAD2-A98A-43DA-AA7C-F67626492A47}|Default">
-  <MonoDevelop.Ide.Workbench>
-    <Files>
-      <File FileName="HM/Source/payment/PaymentActivity.cs" Line="41" Column="36" />
-      <File FileName="HM/Source/payment/PaymentAdapter.cs" Line="10" Column="18" />
-      <File FileName="HM/Source/payment/Payment.cs" Line="11" Column="29" />
-      <File FileName="HM/Source/payment/IPaymentTitle.cs" Line="6" Column="27" />
-      <File FileName="HM/Source/payment/PaymentFactory.cs" Line="6" Column="32" />
-      <File FileName="HM/Source/main/CategoryFactory.cs" Line="1" Column="1" />
-    </Files>
-  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.ItemProperties.HM AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.Android_Accelerated_Oreo" AndroidDesignerPreferredTheme="MyTheme" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

@@ -23,7 +23,6 @@
 /Users/yaozhong/Projects/HM/HM/bin/Debug/Xamarin.GooglePlayServices.Maps.dll
 /Users/yaozhong/Projects/HM/HM/bin/Debug/Xamarin.GooglePlayServices.Tasks.dll
 /Users/yaozhong/Projects/HM/HM/bin/Debug/Newtonsoft.Json.xml
-/Users/yaozhong/Projects/HM/HM/obj/Debug/HM.csprojAssemblyReference.cache
 /Users/yaozhong/Projects/HM/HM/obj/Debug/XbdMerge/Xamarin.GooglePlayServices.Basement.dll.stamp
 /Users/yaozhong/Projects/HM/HM/obj/Debug/XbdMerge/Xamarin.GooglePlayServices.Tasks.dll.stamp
 /Users/yaozhong/Projects/HM/HM/obj/Debug/XbdMerge/Xamarin.GooglePlayServices.Base.dll.stamp
@@ -74,9 +73,11 @@
 /Users/yaozhong/Projects/HM/HM/obj/Debug/res/layout/activity_payment.xml
 /Users/yaozhong/Projects/HM/HM/obj/Debug/res/layout/layout_item_payment_parent.xml
 /Users/yaozhong/Projects/HM/HM/obj/Debug/res/layout/layout_item_payment_child.xml
+/Users/yaozhong/Projects/HM/HM/obj/Debug/res/layout/activity_payment_edit.xml
 /Users/yaozhong/Projects/HM/HM/obj/Debug/R.cs.flag
 /Users/yaozhong/Projects/HM/HM/obj/Debug/R.txt
 /Users/yaozhong/Projects/HM/HM/obj/Debug/uploadflags.txt
+/Users/yaozhong/Projects/HM/HM/obj/Debug/HM.csprojAssemblyReference.cache
 /Users/yaozhong/Projects/HM/HM/bin/Debug/Mono.Android.pdb
 /Users/yaozhong/Projects/HM/HM/obj/Debug/linksrc/HM.pdb
 /Users/yaozhong/Projects/HM/HM/obj/Debug/linksrc/Mono.Android.pdb

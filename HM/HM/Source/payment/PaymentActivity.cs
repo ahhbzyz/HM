@@ -5,6 +5,7 @@ using System;
 using Android.Runtime;
 using System.Collections.Generic;
 using Android.Views;
+using Android.Content;
 
 namespace HM.Source.payment
 {
@@ -12,6 +13,9 @@ namespace HM.Source.payment
     public class PaymentAcitivity : Activity
     {
         private ExpandableListView mListView;
+        private PaymentAdapter mAdapter;
+
+        private List<Payment> mData = PaymentFactory.producePayments();
 
         protected override void OnCreate(Bundle savedInstanceState)
         {
@@ -28,21 +32,35 @@ namespace HM.Source.payment
             ActionBar.SetDisplayShowHomeEnabled(true);
 
             mListView = FindViewById<ExpandableListView>(Resource.Id.expandable_list);
-            PaymentAdapter adapter = new PaymentAdapter(this, PaymentFactory.producePayments());
-            mListView.SetAdapter(adapter);
+            mAdapter = new PaymentAdapter(this, mData);
+            mListView.SetAdapter(mAdapter);
+        }
 
-            TextView add = FindViewById<TextView>(Resource.Id.tv_add);
-            add.Click += (o, e) =>
+        protected override void OnActivityResult(int requestCode, Result resultCode, Intent data)
+        {
+            base.OnActivityResult(requestCode, resultCode, data);
+            if (resultCode == Result.Ok)
             {
-             
-            };
+                Payment payment = new Payment
+                {
+                    name = data.GetStringExtra("name"),
+                    title = data.GetStringExtra("title"),
+                    date = data.GetStringExtra("date"),
+                    amount = data.GetDoubleExtra("amount", 0),
+                    BSBNumber = data.GetStringExtra("bsb"),
+                    account = data.GetStringExtra("account")
+                };
 
-            TextView edit = FindViewById<TextView>(Resource.Id.tv_edit);
-            edit.Click += (o, e) =>
-            {
-                Finish();
-            };
-
+                if (requestCode == PaymentAdapter.ADD) {
+                    mData.Add(payment);
+                } else if (requestCode == PaymentAdapter.EDIT) {
+                    int index = data.GetIntExtra("index", -1);
+                    if (index >= 0) {
+                        mData[index] = payment;
+                    }
+                }
+                mAdapter.NotifyDataSetChanged();
+            }
         }
 
         public override bool OnOptionsItemSelected(IMenuItem item)

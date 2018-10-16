@@ -1,7 +1,7 @@
 ﻿using System;
 namespace HM.Source.payment
 {
-    public class Payment : Java.Lang.Object, IPaymentTitle
+    public class Payment : Java.Lang.Object, IPaymentTitle, Java.IO.ISerializable
     {
         public String name;
         public double amount;
@@ -13,6 +13,10 @@ namespace HM.Source.payment
         public string getTitle()
         {
             return title;
+        }
+
+        public Payment() {
+
         }
     }
 }

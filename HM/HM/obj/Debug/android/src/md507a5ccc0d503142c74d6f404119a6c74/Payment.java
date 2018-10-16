@@ -4,7 +4,8 @@ package md507a5ccc0d503142c74d6f404119a6c74;
 public class Payment
 	extends java.lang.Object
 	implements
-		mono.android.IGCUserPeer
+		mono.android.IGCUserPeer,
+		java.io.Serializable
 {
 /** @hide */
 	public static final String __md_methods;

@@ -38,6 +38,7 @@ namespace HM
             var adapter = new SpinnerAdapter(CategoryFactory.produceAvailableCategories(), this);
             spinner.DropDownVerticalOffset = 100;
             spinner.Adapter = adapter;
+            spinner.ItemSelected += new EventHandler<AdapterView.ItemSelectedEventArgs>(spinner_ItemSelected);
         }
 
         private void spinner_ItemSelected(object sender, AdapterView.ItemSelectedEventArgs e)

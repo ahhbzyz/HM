@@ -13,6 +13,9 @@ com.companyname.HM.MainFragment;com.companyname.HM.MainFragment
 HM.SpinnerAdapter, HM;md5e141b617430c18caef0b3d28d69cb6c3.SpinnerAdapter
 HM.SpinnerAdapter;md5e141b617430c18caef0b3d28d69cb6c3.SpinnerAdapter
 hm.SpinnerAdapter;md5e141b617430c18caef0b3d28d69cb6c3.SpinnerAdapter
+HM.PaymentSpinnerAdapter, HM;md5e141b617430c18caef0b3d28d69cb6c3.PaymentSpinnerAdapter
+HM.PaymentSpinnerAdapter;md5e141b617430c18caef0b3d28d69cb6c3.PaymentSpinnerAdapter
+hm.PaymentSpinnerAdapter;md5e141b617430c18caef0b3d28d69cb6c3.PaymentSpinnerAdapter
 HM.Source.payment.PaymentAcitivity, HM;com.companyname.HM.Source.payment.PaymentAcitivity
 HM.Source.payment.PaymentAcitivity;com.companyname.HM.Source.payment.PaymentAcitivity
 com.companyname.HM.Source.payment.PaymentAcitivity;com.companyname.HM.Source.payment.PaymentAcitivity
@@ -22,6 +25,9 @@ hm.source.payment.PaymentAdapter;md507a5ccc0d503142c74d6f404119a6c74.PaymentAdap
 HM.Source.payment.Payment, HM;md507a5ccc0d503142c74d6f404119a6c74.Payment
 HM.Source.payment.Payment;md507a5ccc0d503142c74d6f404119a6c74.Payment
 hm.source.payment.Payment;md507a5ccc0d503142c74d6f404119a6c74.Payment
+HM.Source.payment.PaymentEditActivity, HM;com.companyname.HM.Source.payment.PaymentEditActivity
+HM.Source.payment.PaymentEditActivity;com.companyname.HM.Source.payment.PaymentEditActivity
+com.companyname.HM.Source.payment.PaymentEditActivity;com.companyname.HM.Source.payment.PaymentEditActivity
 HM.Source.login.LoginAcitivity, HM;com.companyname.HM.Source.login.LoginAcitivity
 HM.Source.login.LoginAcitivity;com.companyname.HM.Source.login.LoginAcitivity
 com.companyname.HM.Source.login.LoginAcitivity;com.companyname.HM.Source.login.LoginAcitivity
