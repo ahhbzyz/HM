@@ -28,6 +28,7 @@
     <activity android:name="com.companyname.HM.Source.payment.PaymentAcitivity" />
     <activity android:name="com.companyname.HM.Source.payment.PaymentEditActivity" />
     <activity android:name="com.companyname.HM.Source.login.LoginAcitivity" />
+    <activity android:name="com.companyname.HM.Source.calendar.CalendarActivity" />
     <provider android:name="mono.MonoRuntimeProvider" android:exported="false" android:initOrder="2147483647" android:authorities="com.companyname.HM.mono.MonoRuntimeProvider.__mono_init__" />
     <!--suppress ExportedReceiver-->
     <receiver android:name="mono.android.Seppuku">

@@ -30,7 +30,8 @@ public final class R {
         public static int design_appbar_state_list_animator=0x7f060000;
     }
     public static final class array {
-        public static int main_title_array=0x7f0e0000;
+        public static int main_title_array=0x7f0e0001;
+        public static int material_calendar_months_array=0x7f0e0000;
     }
     public static final class attr {
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
@@ -378,6 +379,29 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
+        public static int barrierAllowsGoneWidgets=0x7f01016e;
+        /** <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>left</code></td><td>0</td><td></td></tr>
+<tr><td><code>right</code></td><td>1</td><td></td></tr>
+<tr><td><code>top</code></td><td>2</td><td></td></tr>
+<tr><td><code>bottom</code></td><td>3</td><td></td></tr>
+<tr><td><code>start</code></td><td>5</td><td></td></tr>
+<tr><td><code>end</code></td><td>6</td><td></td></tr>
+</table>
+         */
+        public static int barrierDirection=0x7f01016f;
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
         public static int behavior_autoHide=0x7f010145;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
@@ -582,6 +606,14 @@ theme attribute (in the form
 containing a value of this type.
          */
         public static int cameraZoom=0x7f010005;
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int chainUseRtl=0x7f010170;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
@@ -755,6 +787,22 @@ containing a value of this type.
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
         public static int commitIcon=0x7f0100f7;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static int constraintSet=0x7f010171;
+        /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int constraint_referenced_ids=0x7f010172;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static int content=0x7f010173;
         /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -864,6 +912,14 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
         public static int customNavigationLayout=0x7f010035;
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int datePicker=0x7f0101b7;
         /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -976,6 +1032,17 @@ theme attribute (in the form
 containing a value of this type.
          */
         public static int elevation=0x7f010042;
+        /** <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>gone</code></td><td>0</td><td></td></tr>
+<tr><td><code>invisible</code></td><td>1</td><td></td></tr>
+</table>
+         */
+        public static int emptyVisibility=0x7f010174;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -1112,7 +1179,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int font=0x7f010175;
+        public static int font=0x7f0101ae;
         /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -1128,11 +1195,11 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int fontProviderAuthority=0x7f01016e;
+        public static int fontProviderAuthority=0x7f0101a7;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int fontProviderCerts=0x7f010171;
+        public static int fontProviderCerts=0x7f0101aa;
         /** <p>Must be one of the following constant values.</p>
 <table>
 <colgroup align="left" />
@@ -1143,7 +1210,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>async</code></td><td>1</td><td></td></tr>
 </table>
          */
-        public static int fontProviderFetchStrategy=0x7f010172;
+        public static int fontProviderFetchStrategy=0x7f0101ab;
         /** <p>May be an integer value, such as "<code>100</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -1159,7 +1226,7 @@ containing a value of this type.
 <tr><td><code>forever</code></td><td>-1</td><td></td></tr>
 </table>
          */
-        public static int fontProviderFetchTimeout=0x7f010173;
+        public static int fontProviderFetchTimeout=0x7f0101ac;
         /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -1167,7 +1234,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int fontProviderPackage=0x7f01016f;
+        public static int fontProviderPackage=0x7f0101a8;
         /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -1175,7 +1242,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int fontProviderQuery=0x7f010170;
+        public static int fontProviderQuery=0x7f0101a9;
         /** <p>Must be one of the following constant values.</p>
 <table>
 <colgroup align="left" />
@@ -1186,7 +1253,7 @@ containing a value of this type.
 <tr><td><code>italic</code></td><td>1</td><td></td></tr>
 </table>
          */
-        public static int fontStyle=0x7f010174;
+        public static int fontStyle=0x7f0101ad;
         /** <p>Must be an integer value, such as "<code>100</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -1194,7 +1261,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int fontWeight=0x7f010176;
+        public static int fontWeight=0x7f0101af;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -1203,6 +1270,14 @@ theme attribute (in the form
 containing a value of this type.
          */
         public static int foregroundInsidePadding=0x7f010146;
+        /** <p>Must be an integer value, such as "<code>100</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int forwardButtonSrc=0x7f0101b4;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -1217,6 +1292,24 @@ containing a value of this type.
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
         public static int goIcon=0x7f0100f3;
+        /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int headerColor=0x7f0101b1;
+        /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int headerLabelColor=0x7f0101b2;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
@@ -1492,6 +1585,444 @@ theme attribute (in the form
 containing a value of this type.
          */
         public static int layout_collapseParallaxMultiplier=0x7f010134;
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int layout_constrainedHeight=0x7f010175;
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int layout_constrainedWidth=0x7f010176;
+        /** <p>Must be an integer value, such as "<code>100</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int layout_constraintBaseline_creator=0x7f010177;
+        /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>parent</code></td><td>0</td><td></td></tr>
+</table>
+         */
+        public static int layout_constraintBaseline_toBaselineOf=0x7f010178;
+        /** <p>Must be an integer value, such as "<code>100</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int layout_constraintBottom_creator=0x7f010179;
+        /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>parent</code></td><td>0</td><td></td></tr>
+</table>
+         */
+        public static int layout_constraintBottom_toBottomOf=0x7f01017a;
+        /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>parent</code></td><td>0</td><td></td></tr>
+</table>
+         */
+        public static int layout_constraintBottom_toTopOf=0x7f01017b;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static int layout_constraintCircle=0x7f01017c;
+        /** <p>Must be an integer value, such as "<code>100</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int layout_constraintCircleAngle=0x7f01017d;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int layout_constraintCircleRadius=0x7f01017e;
+        /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int layout_constraintDimensionRatio=0x7f01017f;
+        /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>parent</code></td><td>0</td><td></td></tr>
+</table>
+         */
+        public static int layout_constraintEnd_toEndOf=0x7f010180;
+        /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>parent</code></td><td>0</td><td></td></tr>
+</table>
+         */
+        public static int layout_constraintEnd_toStartOf=0x7f010181;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int layout_constraintGuide_begin=0x7f010182;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int layout_constraintGuide_end=0x7f010183;
+        /** <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int layout_constraintGuide_percent=0x7f010184;
+        /** <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>spread</code></td><td>0</td><td></td></tr>
+<tr><td><code>wrap</code></td><td>1</td><td></td></tr>
+<tr><td><code>percent</code></td><td>2</td><td></td></tr>
+</table>
+         */
+        public static int layout_constraintHeight_default=0x7f010185;
+        /** <p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+<p>May be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>wrap</code></td><td>-2</td><td></td></tr>
+</table>
+         */
+        public static int layout_constraintHeight_max=0x7f010186;
+        /** <p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+<p>May be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>wrap</code></td><td>-2</td><td></td></tr>
+</table>
+         */
+        public static int layout_constraintHeight_min=0x7f010187;
+        /** <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int layout_constraintHeight_percent=0x7f010188;
+        /** <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int layout_constraintHorizontal_bias=0x7f010189;
+        /** <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>spread</code></td><td>0</td><td></td></tr>
+<tr><td><code>spread_inside</code></td><td>1</td><td></td></tr>
+<tr><td><code>packed</code></td><td>2</td><td></td></tr>
+</table>
+         */
+        public static int layout_constraintHorizontal_chainStyle=0x7f01018a;
+        /** <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int layout_constraintHorizontal_weight=0x7f01018b;
+        /** <p>Must be an integer value, such as "<code>100</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int layout_constraintLeft_creator=0x7f01018c;
+        /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>parent</code></td><td>0</td><td></td></tr>
+</table>
+         */
+        public static int layout_constraintLeft_toLeftOf=0x7f01018d;
+        /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>parent</code></td><td>0</td><td></td></tr>
+</table>
+         */
+        public static int layout_constraintLeft_toRightOf=0x7f01018e;
+        /** <p>Must be an integer value, such as "<code>100</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int layout_constraintRight_creator=0x7f01018f;
+        /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>parent</code></td><td>0</td><td></td></tr>
+</table>
+         */
+        public static int layout_constraintRight_toLeftOf=0x7f010190;
+        /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>parent</code></td><td>0</td><td></td></tr>
+</table>
+         */
+        public static int layout_constraintRight_toRightOf=0x7f010191;
+        /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>parent</code></td><td>0</td><td></td></tr>
+</table>
+         */
+        public static int layout_constraintStart_toEndOf=0x7f010192;
+        /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>parent</code></td><td>0</td><td></td></tr>
+</table>
+         */
+        public static int layout_constraintStart_toStartOf=0x7f010193;
+        /** <p>Must be an integer value, such as "<code>100</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int layout_constraintTop_creator=0x7f010194;
+        /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>parent</code></td><td>0</td><td></td></tr>
+</table>
+         */
+        public static int layout_constraintTop_toBottomOf=0x7f010195;
+        /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>parent</code></td><td>0</td><td></td></tr>
+</table>
+         */
+        public static int layout_constraintTop_toTopOf=0x7f010196;
+        /** <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int layout_constraintVertical_bias=0x7f010197;
+        /** <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>spread</code></td><td>0</td><td></td></tr>
+<tr><td><code>spread_inside</code></td><td>1</td><td></td></tr>
+<tr><td><code>packed</code></td><td>2</td><td></td></tr>
+</table>
+         */
+        public static int layout_constraintVertical_chainStyle=0x7f010198;
+        /** <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int layout_constraintVertical_weight=0x7f010199;
+        /** <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>spread</code></td><td>0</td><td></td></tr>
+<tr><td><code>wrap</code></td><td>1</td><td></td></tr>
+<tr><td><code>percent</code></td><td>2</td><td></td></tr>
+</table>
+         */
+        public static int layout_constraintWidth_default=0x7f01019a;
+        /** <p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+<p>May be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>wrap</code></td><td>-2</td><td></td></tr>
+</table>
+         */
+        public static int layout_constraintWidth_max=0x7f01019b;
+        /** <p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+<p>May be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>wrap</code></td><td>-2</td><td></td></tr>
+</table>
+         */
+        public static int layout_constraintWidth_min=0x7f01019c;
+        /** <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int layout_constraintWidth_percent=0x7f01019d;
         /** <p>Must be one or more (separated by '|') of the following constant values.</p>
 <table>
 <colgroup align="left" />
@@ -1509,6 +2040,86 @@ containing a value of this type.
 </table>
          */
         public static int layout_dodgeInsetEdges=0x7f01013c;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int layout_editor_absoluteX=0x7f01019e;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int layout_editor_absoluteY=0x7f01019f;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int layout_goneMarginBottom=0x7f0101a0;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int layout_goneMarginEnd=0x7f0101a1;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int layout_goneMarginLeft=0x7f0101a2;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int layout_goneMarginRight=0x7f0101a3;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int layout_goneMarginStart=0x7f0101a4;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int layout_goneMarginTop=0x7f0101a5;
         /** <p>Must be one of the following constant values.</p>
 <table>
 <colgroup align="left" />
@@ -1533,6 +2144,21 @@ theme attribute (in the form
 containing a value of this type.
          */
         public static int layout_keyline=0x7f010139;
+        /** <p>Must be one or more (separated by '|') of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>none</code></td><td>0</td><td></td></tr>
+<tr><td><code>standard</code></td><td>3</td><td></td></tr>
+<tr><td><code>direct</code></td><td>1</td><td> for now only direct & barriers </td></tr>
+<tr><td><code>barrier</code></td><td>2</td><td></td></tr>
+<tr><td><code>chains</code></td><td>4</td><td></td></tr>
+<tr><td><code>dimensions</code></td><td>8</td><td></td></tr>
+</table>
+         */
+        public static int layout_optimizationLevel=0x7f0101a6;
         /** <p>Must be one or more (separated by '|') of the following constant values.</p>
 <table>
 <colgroup align="left" />
@@ -1873,6 +2499,14 @@ theme attribute (in the form
 containing a value of this type.
          */
         public static int pressedTranslationZ=0x7f010142;
+        /** <p>Must be an integer value, such as "<code>100</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int previousButtonSrc=0x7f0101b3;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -1979,6 +2613,15 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
         public static int selectableItemBackgroundBorderless=0x7f01008e;
+        /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int selectionColor=0x7f0101b6;
         /** <p>Must be one or more (separated by '|') of the following constant values.</p>
 <table>
 <colgroup align="left" />
@@ -2567,6 +3210,15 @@ containing a value of this type.
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
         public static int titleTextStyle=0x7f01002d;
+        /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int todayLabelColor=0x7f0101b5;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
@@ -2625,6 +3277,19 @@ containing a value of this type.
 </table>
          */
         public static int trackTintMode=0x7f0100ff;
+        /** <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>classic</code></td><td>0</td><td></td></tr>
+<tr><td><code>one_day_picker</code></td><td>1</td><td></td></tr>
+<tr><td><code>many_days_picker</code></td><td>2</td><td></td></tr>
+<tr><td><code>range_picker</code></td><td>3</td><td></td></tr>
+</table>
+         */
+        public static int type=0x7f0101b0;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -2828,30 +3493,30 @@ containing a value of this type.
         public static int abc_config_showMenuShortcutsWhenKeyboardPresent=0x7f0d0004;
     }
     public static final class color {
-        public static int abc_background_cache_hint_selector_material_dark=0x7f090050;
-        public static int abc_background_cache_hint_selector_material_light=0x7f090051;
-        public static int abc_btn_colored_borderless_text_material=0x7f090052;
-        public static int abc_btn_colored_text_material=0x7f090053;
-        public static int abc_color_highlight_material=0x7f090054;
-        public static int abc_hint_foreground_material_dark=0x7f090055;
-        public static int abc_hint_foreground_material_light=0x7f090056;
+        public static int abc_background_cache_hint_selector_material_dark=0x7f090055;
+        public static int abc_background_cache_hint_selector_material_light=0x7f090056;
+        public static int abc_btn_colored_borderless_text_material=0x7f090057;
+        public static int abc_btn_colored_text_material=0x7f090058;
+        public static int abc_color_highlight_material=0x7f090059;
+        public static int abc_hint_foreground_material_dark=0x7f09005a;
+        public static int abc_hint_foreground_material_light=0x7f09005b;
         public static int abc_input_method_navigation_guard=0x7f090008;
-        public static int abc_primary_text_disable_only_material_dark=0x7f090057;
-        public static int abc_primary_text_disable_only_material_light=0x7f090058;
-        public static int abc_primary_text_material_dark=0x7f090059;
-        public static int abc_primary_text_material_light=0x7f09005a;
-        public static int abc_search_url_text=0x7f09005b;
+        public static int abc_primary_text_disable_only_material_dark=0x7f09005c;
+        public static int abc_primary_text_disable_only_material_light=0x7f09005d;
+        public static int abc_primary_text_material_dark=0x7f09005e;
+        public static int abc_primary_text_material_light=0x7f09005f;
+        public static int abc_search_url_text=0x7f090060;
         public static int abc_search_url_text_normal=0x7f090009;
         public static int abc_search_url_text_pressed=0x7f09000a;
         public static int abc_search_url_text_selected=0x7f09000b;
-        public static int abc_secondary_text_material_dark=0x7f09005c;
-        public static int abc_secondary_text_material_light=0x7f09005d;
-        public static int abc_tint_btn_checkable=0x7f09005e;
-        public static int abc_tint_default=0x7f09005f;
-        public static int abc_tint_edittext=0x7f090060;
-        public static int abc_tint_seek_thumb=0x7f090061;
-        public static int abc_tint_spinner=0x7f090062;
-        public static int abc_tint_switch_track=0x7f090063;
+        public static int abc_secondary_text_material_dark=0x7f090061;
+        public static int abc_secondary_text_material_light=0x7f090062;
+        public static int abc_tint_btn_checkable=0x7f090063;
+        public static int abc_tint_default=0x7f090064;
+        public static int abc_tint_edittext=0x7f090065;
+        public static int abc_tint_seek_thumb=0x7f090066;
+        public static int abc_tint_spinner=0x7f090067;
+        public static int abc_tint_switch_track=0x7f090068;
         public static int accent_material_dark=0x7f09000c;
         public static int accent_material_light=0x7f09000d;
         public static int background_floating_material_dark=0x7f09000e;
@@ -2866,20 +3531,23 @@ containing a value of this type.
         public static int bright_foreground_material_light=0x7f090017;
         public static int button_material_dark=0x7f090018;
         public static int button_material_light=0x7f090019;
-        public static int color_main=0x7f09004f;
-        public static int common_google_signin_btn_text_dark=0x7f090064;
+        public static int color_main=0x7f090054;
+        public static int common_google_signin_btn_text_dark=0x7f090069;
         public static int common_google_signin_btn_text_dark_default=0x7f090000;
         public static int common_google_signin_btn_text_dark_disabled=0x7f090001;
         public static int common_google_signin_btn_text_dark_focused=0x7f090002;
         public static int common_google_signin_btn_text_dark_pressed=0x7f090003;
-        public static int common_google_signin_btn_text_light=0x7f090065;
+        public static int common_google_signin_btn_text_light=0x7f09006a;
         public static int common_google_signin_btn_text_light_default=0x7f090004;
         public static int common_google_signin_btn_text_light_disabled=0x7f090005;
         public static int common_google_signin_btn_text_light_focused=0x7f090006;
         public static int common_google_signin_btn_text_light_pressed=0x7f090007;
-        public static int common_google_signin_btn_tint=0x7f090066;
+        public static int common_google_signin_btn_tint=0x7f09006b;
+        public static int currentMonthDayColor=0x7f09004f;
+        public static int daysLabelColor=0x7f090050;
+        public static int defaultColor=0x7f090051;
         public static int design_bottom_navigation_shadow_color=0x7f090044;
-        public static int design_error=0x7f090067;
+        public static int design_error=0x7f09006c;
         public static int design_fab_shadow_end_color=0x7f090045;
         public static int design_fab_shadow_mid_color=0x7f090046;
         public static int design_fab_shadow_start_color=0x7f090047;
@@ -2888,11 +3556,12 @@ containing a value of this type.
         public static int design_fab_stroke_top_inner_color=0x7f09004a;
         public static int design_fab_stroke_top_outer_color=0x7f09004b;
         public static int design_snackbar_background_color=0x7f09004c;
-        public static int design_tint_password_toggle=0x7f090068;
+        public static int design_tint_password_toggle=0x7f09006d;
         public static int dim_foreground_disabled_material_dark=0x7f09001a;
         public static int dim_foreground_disabled_material_light=0x7f09001b;
         public static int dim_foreground_material_dark=0x7f09001c;
         public static int dim_foreground_material_light=0x7f09001d;
+        public static int disabledDialogButtonColor=0x7f090052;
         public static int error_color_material=0x7f09001e;
         public static int foreground_material_dark=0x7f09001f;
         public static int foreground_material_light=0x7f090020;
@@ -2910,6 +3579,7 @@ containing a value of this type.
         public static int material_grey_800=0x7f09002c;
         public static int material_grey_850=0x7f09002d;
         public static int material_grey_900=0x7f09002e;
+        public static int nextMonthDayColor=0x7f090053;
         public static int notification_action_color_filter=0x7f09004d;
         public static int notification_icon_bg_color=0x7f09004e;
         public static int notification_material_background_media_default_color=0x7f090043;
@@ -2929,8 +3599,8 @@ containing a value of this type.
         public static int secondary_text_disabled_material_light=0x7f09003c;
         public static int switch_thumb_disabled_material_dark=0x7f09003d;
         public static int switch_thumb_disabled_material_light=0x7f09003e;
-        public static int switch_thumb_material_dark=0x7f090069;
-        public static int switch_thumb_material_light=0x7f09006a;
+        public static int switch_thumb_material_dark=0x7f09006e;
+        public static int switch_thumb_material_light=0x7f09006f;
         public static int switch_thumb_normal_material_dark=0x7f09003f;
         public static int switch_thumb_normal_material_light=0x7f090040;
         public static int tooltip_background_dark=0x7f090041;
@@ -3084,6 +3754,7 @@ containing a value of this type.
         public static int notification_subtext_size=0x7f0a0098;
         public static int notification_top_pad=0x7f0a0099;
         public static int notification_top_pad_large_text=0x7f0a009a;
+        public static int row_height=0x7f0a009b;
         public static int tooltip_corner_radius=0x7f0a0059;
         public static int tooltip_horizontal_padding=0x7f0a005a;
         public static int tooltip_margin=0x7f0a005b;
@@ -3178,56 +3849,60 @@ containing a value of this type.
         public static int abc_textfield_search_material=0x7f020051;
         public static int abc_vector_test=0x7f020052;
         public static int avd_hide_password=0x7f020053;
-        public static int avd_hide_password_1=0x7f020080;
-        public static int avd_hide_password_2=0x7f020081;
-        public static int avd_hide_password_3=0x7f020082;
+        public static int avd_hide_password_1=0x7f020084;
+        public static int avd_hide_password_2=0x7f020085;
+        public static int avd_hide_password_3=0x7f020086;
         public static int avd_show_password=0x7f020054;
-        public static int avd_show_password_1=0x7f020083;
-        public static int avd_show_password_2=0x7f020084;
-        public static int avd_show_password_3=0x7f020085;
-        public static int bg_search_box=0x7f020055;
-        public static int common_full_open_on_phone=0x7f020056;
-        public static int common_google_signin_btn_icon_dark=0x7f020057;
-        public static int common_google_signin_btn_icon_dark_focused=0x7f020058;
-        public static int common_google_signin_btn_icon_dark_normal=0x7f020059;
-        public static int common_google_signin_btn_icon_dark_normal_background=0x7f02005a;
-        public static int common_google_signin_btn_icon_disabled=0x7f02005b;
-        public static int common_google_signin_btn_icon_light=0x7f02005c;
-        public static int common_google_signin_btn_icon_light_focused=0x7f02005d;
-        public static int common_google_signin_btn_icon_light_normal=0x7f02005e;
-        public static int common_google_signin_btn_icon_light_normal_background=0x7f02005f;
-        public static int common_google_signin_btn_text_dark=0x7f020060;
-        public static int common_google_signin_btn_text_dark_focused=0x7f020061;
-        public static int common_google_signin_btn_text_dark_normal=0x7f020062;
-        public static int common_google_signin_btn_text_dark_normal_background=0x7f020063;
-        public static int common_google_signin_btn_text_disabled=0x7f020064;
-        public static int common_google_signin_btn_text_light=0x7f020065;
-        public static int common_google_signin_btn_text_light_focused=0x7f020066;
-        public static int common_google_signin_btn_text_light_normal=0x7f020067;
-        public static int common_google_signin_btn_text_light_normal_background=0x7f020068;
-        public static int design_bottom_navigation_item_background=0x7f020069;
-        public static int design_fab_background=0x7f02006a;
-        public static int design_ic_visibility=0x7f02006b;
-        public static int design_ic_visibility_off=0x7f02006c;
-        public static int design_password_eye=0x7f02006d;
-        public static int design_snackbar_background=0x7f02006e;
-        public static int googleg_disabled_color_18=0x7f02006f;
-        public static int googleg_standard_color_18=0x7f020070;
-        public static int navigation_empty_icon=0x7f020071;
-        public static int notification_action_background=0x7f020072;
-        public static int notification_bg=0x7f020073;
-        public static int notification_bg_low=0x7f020074;
-        public static int notification_bg_low_normal=0x7f020075;
-        public static int notification_bg_low_pressed=0x7f020076;
-        public static int notification_bg_normal=0x7f020077;
-        public static int notification_bg_normal_pressed=0x7f020078;
-        public static int notification_icon_background=0x7f020079;
-        public static int notification_template_icon_bg=0x7f02007e;
-        public static int notification_template_icon_low_bg=0x7f02007f;
-        public static int notification_tile_bg=0x7f02007a;
-        public static int notify_panel_notification_icon_bg=0x7f02007b;
-        public static int tooltip_frame_dark=0x7f02007c;
-        public static int tooltip_frame_light=0x7f02007d;
+        public static int avd_show_password_1=0x7f020087;
+        public static int avd_show_password_2=0x7f020088;
+        public static int avd_show_password_3=0x7f020089;
+        public static int background_color_circle_selector=0x7f020055;
+        public static int background_transparent=0x7f020056;
+        public static int bg_search_box=0x7f020057;
+        public static int common_full_open_on_phone=0x7f020058;
+        public static int common_google_signin_btn_icon_dark=0x7f020059;
+        public static int common_google_signin_btn_icon_dark_focused=0x7f02005a;
+        public static int common_google_signin_btn_icon_dark_normal=0x7f02005b;
+        public static int common_google_signin_btn_icon_dark_normal_background=0x7f02005c;
+        public static int common_google_signin_btn_icon_disabled=0x7f02005d;
+        public static int common_google_signin_btn_icon_light=0x7f02005e;
+        public static int common_google_signin_btn_icon_light_focused=0x7f02005f;
+        public static int common_google_signin_btn_icon_light_normal=0x7f020060;
+        public static int common_google_signin_btn_icon_light_normal_background=0x7f020061;
+        public static int common_google_signin_btn_text_dark=0x7f020062;
+        public static int common_google_signin_btn_text_dark_focused=0x7f020063;
+        public static int common_google_signin_btn_text_dark_normal=0x7f020064;
+        public static int common_google_signin_btn_text_dark_normal_background=0x7f020065;
+        public static int common_google_signin_btn_text_disabled=0x7f020066;
+        public static int common_google_signin_btn_text_light=0x7f020067;
+        public static int common_google_signin_btn_text_light_focused=0x7f020068;
+        public static int common_google_signin_btn_text_light_normal=0x7f020069;
+        public static int common_google_signin_btn_text_light_normal_background=0x7f02006a;
+        public static int design_bottom_navigation_item_background=0x7f02006b;
+        public static int design_fab_background=0x7f02006c;
+        public static int design_ic_visibility=0x7f02006d;
+        public static int design_ic_visibility_off=0x7f02006e;
+        public static int design_password_eye=0x7f02006f;
+        public static int design_snackbar_background=0x7f020070;
+        public static int googleg_disabled_color_18=0x7f020071;
+        public static int googleg_standard_color_18=0x7f020072;
+        public static int ic_arrow_left=0x7f020073;
+        public static int ic_arrow_right=0x7f020074;
+        public static int navigation_empty_icon=0x7f020075;
+        public static int notification_action_background=0x7f020076;
+        public static int notification_bg=0x7f020077;
+        public static int notification_bg_low=0x7f020078;
+        public static int notification_bg_low_normal=0x7f020079;
+        public static int notification_bg_low_pressed=0x7f02007a;
+        public static int notification_bg_normal=0x7f02007b;
+        public static int notification_bg_normal_pressed=0x7f02007c;
+        public static int notification_icon_background=0x7f02007d;
+        public static int notification_template_icon_bg=0x7f020082;
+        public static int notification_template_icon_low_bg=0x7f020083;
+        public static int notification_tile_bg=0x7f02007e;
+        public static int notify_panel_notification_icon_bg=0x7f02007f;
+        public static int tooltip_frame_dark=0x7f020080;
+        public static int tooltip_frame_light=0x7f020081;
     }
     public static final class id {
         public static int ALT=0x7f0b003d;
@@ -3236,220 +3911,263 @@ containing a value of this type.
         public static int META=0x7f0b0040;
         public static int SHIFT=0x7f0b0041;
         public static int SYM=0x7f0b0042;
-        public static int action0=0x7f0b00ca;
-        public static int action_bar=0x7f0b0086;
+        public static int action0=0x7f0b00f5;
+        public static int action_bar=0x7f0b0096;
         public static int action_bar_activity_content=0x7f0b0001;
-        public static int action_bar_container=0x7f0b0085;
-        public static int action_bar_root=0x7f0b0081;
+        public static int action_bar_container=0x7f0b0095;
+        public static int action_bar_root=0x7f0b0091;
         public static int action_bar_spinner=0x7f0b0002;
-        public static int action_bar_subtitle=0x7f0b0065;
-        public static int action_bar_title=0x7f0b0064;
-        public static int action_container=0x7f0b00c7;
-        public static int action_context_bar=0x7f0b0087;
-        public static int action_divider=0x7f0b00ce;
-        public static int action_image=0x7f0b00c8;
+        public static int action_bar_subtitle=0x7f0b0075;
+        public static int action_bar_title=0x7f0b0074;
+        public static int action_container=0x7f0b00f2;
+        public static int action_context_bar=0x7f0b0097;
+        public static int action_divider=0x7f0b00f9;
+        public static int action_image=0x7f0b00f3;
         public static int action_menu_divider=0x7f0b0003;
         public static int action_menu_presenter=0x7f0b0004;
-        public static int action_mode_bar=0x7f0b0083;
-        public static int action_mode_bar_stub=0x7f0b0082;
-        public static int action_mode_close_button=0x7f0b0066;
-        public static int action_text=0x7f0b00c9;
-        public static int actions=0x7f0b00d7;
-        public static int activity_chooser_view_content=0x7f0b0067;
+        public static int action_mode_bar=0x7f0b0093;
+        public static int action_mode_bar_stub=0x7f0b0092;
+        public static int action_mode_close_button=0x7f0b0076;
+        public static int action_text=0x7f0b00f4;
+        public static int actions=0x7f0b0102;
+        public static int activity_chooser_view_content=0x7f0b0077;
         public static int add=0x7f0b0032;
         public static int adjust_height=0x7f0b0022;
         public static int adjust_width=0x7f0b0023;
-        public static int alertTitle=0x7f0b007a;
+        public static int alertTitle=0x7f0b008a;
         public static int all=0x7f0b005c;
         public static int always=0x7f0b0043;
-        public static int async=0x7f0b0060;
+        public static int async=0x7f0b006c;
         public static int auto=0x7f0b0027;
+        public static int barrier=0x7f0b0068;
         public static int beginning=0x7f0b003a;
-        public static int blocking=0x7f0b0061;
+        public static int blocking=0x7f0b006d;
         public static int bottom=0x7f0b0048;
-        public static int buttonPanel=0x7f0b006d;
-        public static int cancel=0x7f0b0098;
-        public static int cancel_action=0x7f0b00cb;
+        public static int buttonPanel=0x7f0b007d;
+        public static int calendar=0x7f0b00a6;
+        public static int calendarContainer=0x7f0b00c6;
+        public static int calendarGridView=0x7f0b00c5;
+        public static int calendarHeader=0x7f0b00b5;
+        public static int calendarViewPager=0x7f0b00c1;
+        public static int calendar_header=0x7f0b00b9;
+        public static int cancel=0x7f0b00aa;
+        public static int cancel_action=0x7f0b00f6;
         public static int center=0x7f0b004f;
         public static int center_horizontal=0x7f0b0050;
         public static int center_vertical=0x7f0b0051;
-        public static int checkbox=0x7f0b007d;
-        public static int chronometer=0x7f0b00d3;
+        public static int chains=0x7f0b0069;
+        public static int checkbox=0x7f0b008d;
+        public static int chronometer=0x7f0b00fe;
+        public static int classic=0x7f0b0070;
         public static int clip_horizontal=0x7f0b0058;
         public static int clip_vertical=0x7f0b0059;
         public static int collapseActionView=0x7f0b0044;
-        public static int container=0x7f0b00a6;
-        public static int contentPanel=0x7f0b0070;
-        public static int coordinator=0x7f0b00a7;
-        public static int custom=0x7f0b0077;
-        public static int customPanel=0x7f0b0076;
+        public static int container=0x7f0b00cc;
+        public static int contentPanel=0x7f0b0080;
+        public static int coordinator=0x7f0b00cd;
+        public static int currentDateLabel=0x7f0b00b8;
+        public static int custom=0x7f0b0087;
+        public static int customPanel=0x7f0b0086;
         public static int dark=0x7f0b0028;
-        public static int decor_content_parent=0x7f0b0084;
-        public static int default_activity_button=0x7f0b006a;
-        public static int delete=0x7f0b00ba;
-        public static int design_bottom_sheet=0x7f0b00a9;
-        public static int design_menu_item_action_area=0x7f0b00b0;
-        public static int design_menu_item_action_area_stub=0x7f0b00af;
-        public static int design_menu_item_text=0x7f0b00ae;
-        public static int design_navigation_view=0x7f0b00ad;
+        public static int dayIcon=0x7f0b00c3;
+        public static int dayLabel=0x7f0b00c2;
+        public static int decor_content_parent=0x7f0b0094;
+        public static int default_activity_button=0x7f0b007a;
+        public static int delete=0x7f0b00e0;
+        public static int design_bottom_sheet=0x7f0b00cf;
+        public static int design_menu_item_action_area=0x7f0b00d6;
+        public static int design_menu_item_action_area_stub=0x7f0b00d5;
+        public static int design_menu_item_text=0x7f0b00d4;
+        public static int design_navigation_view=0x7f0b00d3;
+        public static int dimensions=0x7f0b006a;
+        public static int direct=0x7f0b006b;
         public static int disableHome=0x7f0b002c;
-        public static int edit=0x7f0b00b9;
-        public static int edit_query=0x7f0b0088;
+        public static int divider=0x7f0b00c4;
+        public static int edit=0x7f0b00df;
+        public static int edit_query=0x7f0b0098;
         public static int end=0x7f0b003b;
-        public static int end_padder=0x7f0b00d9;
+        public static int end_padder=0x7f0b0104;
         public static int enterAlways=0x7f0b004a;
         public static int enterAlwaysCollapsed=0x7f0b004b;
         public static int exitUntilCollapsed=0x7f0b004c;
-        public static int expand_activities_button=0x7f0b0068;
-        public static int expandable_list=0x7f0b0099;
-        public static int expanded_menu=0x7f0b007c;
+        public static int expand_activities_button=0x7f0b0078;
+        public static int expandable_list=0x7f0b00ab;
+        public static int expanded_menu=0x7f0b008c;
         public static int fill=0x7f0b005a;
         public static int fill_horizontal=0x7f0b005b;
         public static int fill_vertical=0x7f0b0052;
         public static int fixed=0x7f0b005e;
-        public static int forever=0x7f0b0062;
+        public static int forever=0x7f0b006e;
+        public static int forwardButton=0x7f0b00b7;
+        public static int fridayLabel=0x7f0b00be;
         public static int ghost_view=0x7f0b000a;
-        public static int gridView=0x7f0b00b2;
+        public static int gone=0x7f0b0060;
+        public static int gridView=0x7f0b00d8;
         public static int home=0x7f0b0005;
         public static int homeAsUp=0x7f0b002d;
         public static int hybrid=0x7f0b001d;
-        public static int icon=0x7f0b006c;
-        public static int icon_group=0x7f0b00d8;
+        public static int icon=0x7f0b007c;
+        public static int icon_group=0x7f0b0103;
         public static int icon_only=0x7f0b0024;
         public static int ifRoom=0x7f0b0045;
-        public static int image=0x7f0b0069;
-        public static int img=0x7f0b00c2;
-        public static int img_alarm=0x7f0b00c4;
-        public static int img_bar=0x7f0b00a2;
-        public static int img_desc=0x7f0b00bc;
-        public static int img_drawer=0x7f0b00c3;
-        public static int img_fav=0x7f0b00be;
-        public static int img_login=0x7f0b00c5;
-        public static int info=0x7f0b00d4;
-        public static int italic=0x7f0b0063;
+        public static int image=0x7f0b0079;
+        public static int img=0x7f0b00ed;
+        public static int img_alarm=0x7f0b00ef;
+        public static int img_bar=0x7f0b00b4;
+        public static int img_desc=0x7f0b00e7;
+        public static int img_drawer=0x7f0b00ee;
+        public static int img_fav=0x7f0b00e9;
+        public static int img_login=0x7f0b00f0;
+        public static int info=0x7f0b00ff;
+        public static int invisible=0x7f0b0061;
+        public static int italic=0x7f0b006f;
         public static int item_touch_helper_previous_elevation=0x7f0b0000;
-        public static int largeLabel=0x7f0b00a5;
+        public static int largeLabel=0x7f0b00cb;
         public static int left=0x7f0b0053;
         public static int light=0x7f0b0029;
+        public static int line=0x7f0b00db;
         public static int line1=0x7f0b0017;
         public static int line3=0x7f0b0018;
         public static int listMode=0x7f0b002a;
-        public static int list_item=0x7f0b006b;
-        public static int ll_container=0x7f0b00c6;
-        public static int ll_list=0x7f0b00a1;
-        public static int map=0x7f0b00a0;
-        public static int masked=0x7f0b00dc;
-        public static int media_actions=0x7f0b00cd;
-        public static int message=0x7f0b00da;
+        public static int list_item=0x7f0b007b;
+        public static int ll_container=0x7f0b00f1;
+        public static int ll_list=0x7f0b00b3;
+        public static int many_days_picker=0x7f0b0071;
+        public static int map=0x7f0b00b2;
+        public static int masked=0x7f0b0107;
+        public static int media_actions=0x7f0b00f8;
+        public static int message=0x7f0b0105;
         public static int middle=0x7f0b003c;
         public static int mini=0x7f0b005d;
+        public static int mondayLabel=0x7f0b00ba;
         public static int multiply=0x7f0b0033;
-        public static int navigation_header_container=0x7f0b00ac;
+        public static int navigation_header_container=0x7f0b00d2;
+        public static int negative_button=0x7f0b00c9;
         public static int never=0x7f0b0046;
         public static int none=0x7f0b001e;
         public static int normal=0x7f0b001f;
-        public static int notification_background=0x7f0b00d6;
-        public static int notification_main_column=0x7f0b00d0;
-        public static int notification_main_column_container=0x7f0b00cf;
+        public static int notification_background=0x7f0b0101;
+        public static int notification_main_column=0x7f0b00fb;
+        public static int notification_main_column_container=0x7f0b00fa;
+        public static int one_day_picker=0x7f0b0072;
+        public static int packed=0x7f0b0066;
         public static int parallax=0x7f0b0056;
-        public static int parentPanel=0x7f0b006f;
+        public static int parent=0x7f0b0062;
+        public static int parentPanel=0x7f0b007f;
         public static int parent_matrix=0x7f0b000b;
+        public static int percent=0x7f0b0063;
         public static int pin=0x7f0b0057;
+        public static int positive_button=0x7f0b00c8;
+        public static int previousButton=0x7f0b00b6;
         public static int progress_circular=0x7f0b0006;
         public static int progress_horizontal=0x7f0b0007;
-        public static int radio=0x7f0b007f;
-        public static int recyclerView=0x7f0b00a3;
+        public static int radio=0x7f0b008f;
+        public static int range_picker=0x7f0b0073;
+        public static int recyclerView=0x7f0b00a7;
         public static int right=0x7f0b0054;
-        public static int right_icon=0x7f0b00d5;
-        public static int right_side=0x7f0b00d1;
-        public static int rl_content=0x7f0b00bd;
+        public static int right_icon=0x7f0b0100;
+        public static int right_side=0x7f0b00fc;
+        public static int rl_content=0x7f0b00e8;
         public static int satellite=0x7f0b0020;
+        public static int saturdayLabel=0x7f0b00bf;
         public static int save_image_matrix=0x7f0b000c;
         public static int save_non_transition_alpha=0x7f0b000d;
         public static int save_scale_type=0x7f0b000e;
         public static int screen=0x7f0b0034;
         public static int scroll=0x7f0b004d;
-        public static int scrollIndicatorDown=0x7f0b0075;
-        public static int scrollIndicatorUp=0x7f0b0071;
-        public static int scrollView=0x7f0b0072;
+        public static int scrollIndicatorDown=0x7f0b0085;
+        public static int scrollIndicatorUp=0x7f0b0081;
+        public static int scrollView=0x7f0b0082;
         public static int scrollable=0x7f0b005f;
-        public static int search_badge=0x7f0b008a;
-        public static int search_bar=0x7f0b0089;
-        public static int search_button=0x7f0b008b;
-        public static int search_close_btn=0x7f0b0090;
-        public static int search_edit_frame=0x7f0b008c;
-        public static int search_go_btn=0x7f0b0092;
-        public static int search_mag_icon=0x7f0b008d;
-        public static int search_plate=0x7f0b008e;
-        public static int search_src_text=0x7f0b008f;
-        public static int search_voice_btn=0x7f0b0093;
-        public static int select_dialog_listview=0x7f0b0094;
-        public static int shortcut=0x7f0b007e;
+        public static int search_badge=0x7f0b009a;
+        public static int search_bar=0x7f0b0099;
+        public static int search_button=0x7f0b009b;
+        public static int search_close_btn=0x7f0b00a0;
+        public static int search_edit_frame=0x7f0b009c;
+        public static int search_go_btn=0x7f0b00a2;
+        public static int search_mag_icon=0x7f0b009d;
+        public static int search_plate=0x7f0b009e;
+        public static int search_src_text=0x7f0b009f;
+        public static int search_voice_btn=0x7f0b00a3;
+        public static int select_dialog_listview=0x7f0b00a4;
+        public static int shortcut=0x7f0b008e;
         public static int showCustom=0x7f0b002e;
         public static int showHome=0x7f0b002f;
         public static int showTitle=0x7f0b0030;
-        public static int smallLabel=0x7f0b00a4;
-        public static int snackbar_action=0x7f0b00ab;
-        public static int snackbar_text=0x7f0b00aa;
+        public static int smallLabel=0x7f0b00ca;
+        public static int snackbar_action=0x7f0b00d1;
+        public static int snackbar_text=0x7f0b00d0;
         public static int snap=0x7f0b004e;
-        public static int spacer=0x7f0b006e;
-        public static int spinner=0x7f0b009a;
+        public static int spacer=0x7f0b007e;
+        public static int spinner=0x7f0b00ac;
         public static int split_action_bar=0x7f0b0008;
+        public static int spread=0x7f0b0064;
+        public static int spread_inside=0x7f0b0067;
         public static int src_atop=0x7f0b0035;
         public static int src_in=0x7f0b0036;
         public static int src_over=0x7f0b0037;
         public static int standard=0x7f0b0025;
         public static int start=0x7f0b0055;
-        public static int status_bar_latest_event_content=0x7f0b00cc;
-        public static int submenuarrow=0x7f0b0080;
-        public static int submit=0x7f0b0097;
-        public static int submit_area=0x7f0b0091;
+        public static int status_bar_latest_event_content=0x7f0b00f7;
+        public static int submenuarrow=0x7f0b0090;
+        public static int submit=0x7f0b00a9;
+        public static int submit_area=0x7f0b00a1;
+        public static int sundayLabel=0x7f0b00c0;
         public static int tabMode=0x7f0b002b;
         public static int tag_transition_group=0x7f0b0019;
         public static int terrain=0x7f0b0021;
         public static int text=0x7f0b001a;
         public static int text2=0x7f0b001b;
-        public static int textInputLayout=0x7f0b0096;
-        public static int textSpacerNoButtons=0x7f0b0074;
-        public static int textSpacerNoTitle=0x7f0b0073;
-        public static int text_input_password_toggle=0x7f0b00b1;
+        public static int textInputLayout=0x7f0b00a8;
+        public static int textSpacerNoButtons=0x7f0b0084;
+        public static int textSpacerNoTitle=0x7f0b0083;
+        public static int text_input_password_toggle=0x7f0b00d7;
         public static int textinput_counter=0x7f0b0014;
         public static int textinput_error=0x7f0b0015;
-        public static int til_account=0x7f0b009f;
-        public static int til_amount=0x7f0b009c;
-        public static int til_bsb=0x7f0b009e;
-        public static int til_due=0x7f0b009d;
-        public static int til_name=0x7f0b009b;
-        public static int time=0x7f0b00d2;
+        public static int thursdayLabel=0x7f0b00bd;
+        public static int til_account=0x7f0b00b1;
+        public static int til_amount=0x7f0b00ae;
+        public static int til_bsb=0x7f0b00b0;
+        public static int til_due=0x7f0b00af;
+        public static int til_name=0x7f0b00ad;
+        public static int time=0x7f0b00fd;
         public static int title=0x7f0b001c;
-        public static int titleDividerNoCustom=0x7f0b007b;
-        public static int title_template=0x7f0b0079;
-        public static int toolbar=0x7f0b0095;
+        public static int titleDividerNoCustom=0x7f0b008b;
+        public static int title_template=0x7f0b0089;
+        public static int today_button=0x7f0b00c7;
+        public static int toolbar=0x7f0b00a5;
         public static int top=0x7f0b0049;
-        public static int topPanel=0x7f0b0078;
-        public static int touch_outside=0x7f0b00a8;
+        public static int topPanel=0x7f0b0088;
+        public static int touch_outside=0x7f0b00ce;
         public static int transition_current_scene=0x7f0b000f;
         public static int transition_layout_save=0x7f0b0010;
         public static int transition_position=0x7f0b0011;
         public static int transition_scene_layoutid_cache=0x7f0b0012;
         public static int transition_transform=0x7f0b0013;
-        public static int tv_account=0x7f0b00b8;
-        public static int tv_add_to_calendar=0x7f0b00b4;
-        public static int tv_address=0x7f0b00bf;
-        public static int tv_amount=0x7f0b00b5;
-        public static int tv_bsb=0x7f0b00b7;
-        public static int tv_date=0x7f0b00b6;
-        public static int tv_distance=0x7f0b00c1;
-        public static int tv_name=0x7f0b00b3;
-        public static int tv_phone=0x7f0b00c0;
-        public static int tv_title=0x7f0b00bb;
+        public static int tuesdayLabel=0x7f0b00bb;
+        public static int tv_account=0x7f0b00e5;
+        public static int tv_add_to_calendar=0x7f0b00e1;
+        public static int tv_address=0x7f0b00ea;
+        public static int tv_amount=0x7f0b00e2;
+        public static int tv_bsb=0x7f0b00e4;
+        public static int tv_date=0x7f0b00e3;
+        public static int tv_desct=0x7f0b00de;
+        public static int tv_distance=0x7f0b00ec;
+        public static int tv_duraion=0x7f0b00da;
+        public static int tv_location=0x7f0b00dd;
+        public static int tv_name=0x7f0b00dc;
+        public static int tv_phone=0x7f0b00eb;
+        public static int tv_time=0x7f0b00d9;
+        public static int tv_title=0x7f0b00e6;
         public static int uniform=0x7f0b0038;
         public static int up=0x7f0b0009;
         public static int useLogo=0x7f0b0031;
         public static int view_offset_helper=0x7f0b0016;
-        public static int visible=0x7f0b00db;
+        public static int visible=0x7f0b0106;
+        public static int wednesdayLabel=0x7f0b00bc;
         public static int wide=0x7f0b0026;
         public static int withText=0x7f0b0047;
+        public static int wrap=0x7f0b0065;
         public static int wrap_content=0x7f0b0039;
     }
     public static final class integer {
@@ -3492,51 +4210,58 @@ containing a value of this type.
         public static int abc_search_dropdown_item_icons_2line=0x7f040017;
         public static int abc_search_view=0x7f040018;
         public static int abc_select_dialog_material=0x7f040019;
-        public static int activity_login=0x7f04001a;
-        public static int activity_payment=0x7f04001b;
-        public static int activity_payment_edit=0x7f04001c;
-        public static int activity_search=0x7f04001d;
-        public static int design_bottom_navigation_item=0x7f04001e;
-        public static int design_bottom_sheet_dialog=0x7f04001f;
-        public static int design_layout_snackbar=0x7f040020;
-        public static int design_layout_snackbar_include=0x7f040021;
-        public static int design_layout_tab_icon=0x7f040022;
-        public static int design_layout_tab_text=0x7f040023;
-        public static int design_menu_item_action_area=0x7f040024;
-        public static int design_navigation_item=0x7f040025;
-        public static int design_navigation_item_header=0x7f040026;
-        public static int design_navigation_item_separator=0x7f040027;
-        public static int design_navigation_item_subheader=0x7f040028;
-        public static int design_navigation_menu=0x7f040029;
-        public static int design_navigation_menu_item=0x7f04002a;
-        public static int design_text_input_password_icon=0x7f04002b;
-        public static int fragment_main=0x7f04002c;
-        public static int layout_item_payment_child=0x7f04002d;
-        public static int layout_item_payment_parent=0x7f04002e;
-        public static int layout_item_search_result=0x7f04002f;
-        public static int layout_main_item=0x7f040030;
-        public static int layout_spinner_item=0x7f040031;
-        public static int main=0x7f040032;
-        public static int notification_action=0x7f040033;
-        public static int notification_action_tombstone=0x7f040034;
-        public static int notification_media_action=0x7f040035;
-        public static int notification_media_cancel_action=0x7f040036;
-        public static int notification_template_big_media=0x7f040037;
-        public static int notification_template_big_media_custom=0x7f040038;
-        public static int notification_template_big_media_narrow=0x7f040039;
-        public static int notification_template_big_media_narrow_custom=0x7f04003a;
-        public static int notification_template_custom_big=0x7f04003b;
-        public static int notification_template_icon_group=0x7f04003c;
-        public static int notification_template_lines_media=0x7f04003d;
-        public static int notification_template_media=0x7f04003e;
-        public static int notification_template_media_custom=0x7f04003f;
-        public static int notification_template_part_chronometer=0x7f040040;
-        public static int notification_template_part_time=0x7f040041;
-        public static int select_dialog_item_material=0x7f040042;
-        public static int select_dialog_multichoice_material=0x7f040043;
-        public static int select_dialog_singlechoice_material=0x7f040044;
-        public static int support_simple_spinner_dropdown_item=0x7f040045;
-        public static int tooltip=0x7f040046;
+        public static int activity_calendar=0x7f04001a;
+        public static int activity_login=0x7f04001b;
+        public static int activity_payment=0x7f04001c;
+        public static int activity_payment_edit=0x7f04001d;
+        public static int activity_search=0x7f04001e;
+        public static int calendar_view=0x7f04001f;
+        public static int calendar_view_day=0x7f040020;
+        public static int calendar_view_grid=0x7f040021;
+        public static int calendar_view_picker_day=0x7f040022;
+        public static int date_picker_dialog=0x7f040023;
+        public static int design_bottom_navigation_item=0x7f040024;
+        public static int design_bottom_sheet_dialog=0x7f040025;
+        public static int design_layout_snackbar=0x7f040026;
+        public static int design_layout_snackbar_include=0x7f040027;
+        public static int design_layout_tab_icon=0x7f040028;
+        public static int design_layout_tab_text=0x7f040029;
+        public static int design_menu_item_action_area=0x7f04002a;
+        public static int design_navigation_item=0x7f04002b;
+        public static int design_navigation_item_header=0x7f04002c;
+        public static int design_navigation_item_separator=0x7f04002d;
+        public static int design_navigation_item_subheader=0x7f04002e;
+        public static int design_navigation_menu=0x7f04002f;
+        public static int design_navigation_menu_item=0x7f040030;
+        public static int design_text_input_password_icon=0x7f040031;
+        public static int fragment_main=0x7f040032;
+        public static int layout_item_event=0x7f040033;
+        public static int layout_item_payment_child=0x7f040034;
+        public static int layout_item_payment_parent=0x7f040035;
+        public static int layout_item_search_result=0x7f040036;
+        public static int layout_main_item=0x7f040037;
+        public static int layout_spinner_item=0x7f040038;
+        public static int main=0x7f040039;
+        public static int notification_action=0x7f04003a;
+        public static int notification_action_tombstone=0x7f04003b;
+        public static int notification_media_action=0x7f04003c;
+        public static int notification_media_cancel_action=0x7f04003d;
+        public static int notification_template_big_media=0x7f04003e;
+        public static int notification_template_big_media_custom=0x7f04003f;
+        public static int notification_template_big_media_narrow=0x7f040040;
+        public static int notification_template_big_media_narrow_custom=0x7f040041;
+        public static int notification_template_custom_big=0x7f040042;
+        public static int notification_template_icon_group=0x7f040043;
+        public static int notification_template_lines_media=0x7f040044;
+        public static int notification_template_media=0x7f040045;
+        public static int notification_template_media_custom=0x7f040046;
+        public static int notification_template_part_chronometer=0x7f040047;
+        public static int notification_template_part_time=0x7f040048;
+        public static int select_dialog_item_material=0x7f040049;
+        public static int select_dialog_multichoice_material=0x7f04004a;
+        public static int select_dialog_singlechoice_material=0x7f04004b;
+        public static int support_simple_spinner_dropdown_item=0x7f04004c;
+        public static int tooltip=0x7f04004d;
     }
     public static final class mipmap {
         public static int alarm=0x7f030000;
@@ -3587,7 +4312,7 @@ containing a value of this type.
         public static int abc_shareactionprovider_share_with=0x7f08001f;
         public static int abc_shareactionprovider_share_with_application=0x7f080020;
         public static int abc_toolbar_collapse_description=0x7f080021;
-        public static int app_name=0x7f080039;
+        public static int app_name=0x7f080038;
         public static int appbar_scrolling_view_behavior=0x7f08002f;
         public static int bottom_sheet_behavior=0x7f080030;
         public static int character_counter_pattern=0x7f080031;
@@ -3608,7 +4333,17 @@ containing a value of this type.
         public static int common_open_on_phone=0x7f08000e;
         public static int common_signin_button_text=0x7f08000f;
         public static int common_signin_button_text_long=0x7f080010;
-        public static int hello=0x7f080038;
+        public static int hello=0x7f080043;
+        public static int material_calendar_friday=0x7f080039;
+        public static int material_calendar_monday=0x7f08003a;
+        public static int material_calendar_negative_button=0x7f08003b;
+        public static int material_calendar_positive_button=0x7f08003c;
+        public static int material_calendar_saturday=0x7f08003d;
+        public static int material_calendar_sunday=0x7f08003e;
+        public static int material_calendar_thursday=0x7f08003f;
+        public static int material_calendar_today_button=0x7f080040;
+        public static int material_calendar_tuesday=0x7f080041;
+        public static int material_calendar_wednesday=0x7f080042;
         public static int password_toggle_content_description=0x7f080032;
         public static int path_password_eye=0x7f080033;
         public static int path_password_eye_mask_strike_through=0x7f080034;
@@ -7080,6 +7815,155 @@ containing a value of this type.
           @attr name android.support.v7.appcompat:allowStacking
         */
         public static int ButtonBarLayout_allowStacking = 0;
+        /** Attributes that can be used with a CalendarView.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #CalendarView_datePicker android.support.v7.appcompat:datePicker}</code></td><td></td></tr>
+           <tr><td><code>{@link #CalendarView_forwardButtonSrc android.support.v7.appcompat:forwardButtonSrc}</code></td><td></td></tr>
+           <tr><td><code>{@link #CalendarView_headerColor android.support.v7.appcompat:headerColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #CalendarView_headerLabelColor android.support.v7.appcompat:headerLabelColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #CalendarView_previousButtonSrc android.support.v7.appcompat:previousButtonSrc}</code></td><td></td></tr>
+           <tr><td><code>{@link #CalendarView_selectionColor android.support.v7.appcompat:selectionColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #CalendarView_todayLabelColor android.support.v7.appcompat:todayLabelColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #CalendarView_type android.support.v7.appcompat:type}</code></td><td></td></tr>
+           </table>
+           @see #CalendarView_datePicker
+           @see #CalendarView_forwardButtonSrc
+           @see #CalendarView_headerColor
+           @see #CalendarView_headerLabelColor
+           @see #CalendarView_previousButtonSrc
+           @see #CalendarView_selectionColor
+           @see #CalendarView_todayLabelColor
+           @see #CalendarView_type
+         */
+        public static final int[] CalendarView = {
+            0x7f0101b0, 0x7f0101b1, 0x7f0101b2, 0x7f0101b3,
+            0x7f0101b4, 0x7f0101b5, 0x7f0101b6, 0x7f0101b7
+        };
+        /**
+          <p>This symbol is the offset where the {@link android.support.v7.appcompat.R.attr#datePicker}
+          attribute's value can be found in the {@link #CalendarView} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name android.support.v7.appcompat:datePicker
+        */
+        public static int CalendarView_datePicker = 7;
+        /**
+          <p>This symbol is the offset where the {@link android.support.v7.appcompat.R.attr#forwardButtonSrc}
+          attribute's value can be found in the {@link #CalendarView} array.
+
+
+          <p>Must be an integer value, such as "<code>100</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name android.support.v7.appcompat:forwardButtonSrc
+        */
+        public static int CalendarView_forwardButtonSrc = 4;
+        /**
+          <p>This symbol is the offset where the {@link android.support.v7.appcompat.R.attr#headerColor}
+          attribute's value can be found in the {@link #CalendarView} array.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name android.support.v7.appcompat:headerColor
+        */
+        public static int CalendarView_headerColor = 1;
+        /**
+          <p>This symbol is the offset where the {@link android.support.v7.appcompat.R.attr#headerLabelColor}
+          attribute's value can be found in the {@link #CalendarView} array.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name android.support.v7.appcompat:headerLabelColor
+        */
+        public static int CalendarView_headerLabelColor = 2;
+        /**
+          <p>This symbol is the offset where the {@link android.support.v7.appcompat.R.attr#previousButtonSrc}
+          attribute's value can be found in the {@link #CalendarView} array.
+
+
+          <p>Must be an integer value, such as "<code>100</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name android.support.v7.appcompat:previousButtonSrc
+        */
+        public static int CalendarView_previousButtonSrc = 3;
+        /**
+          <p>This symbol is the offset where the {@link android.support.v7.appcompat.R.attr#selectionColor}
+          attribute's value can be found in the {@link #CalendarView} array.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name android.support.v7.appcompat:selectionColor
+        */
+        public static int CalendarView_selectionColor = 6;
+        /**
+          <p>This symbol is the offset where the {@link android.support.v7.appcompat.R.attr#todayLabelColor}
+          attribute's value can be found in the {@link #CalendarView} array.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name android.support.v7.appcompat:todayLabelColor
+        */
+        public static int CalendarView_todayLabelColor = 5;
+        /**
+          <p>This symbol is the offset where the {@link android.support.v7.appcompat.R.attr#type}
+          attribute's value can be found in the {@link #CalendarView} array.
+
+
+          <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>classic</code></td><td>0</td><td></td></tr>
+<tr><td><code>one_day_picker</code></td><td>1</td><td></td></tr>
+<tr><td><code>many_days_picker</code></td><td>2</td><td></td></tr>
+<tr><td><code>range_picker</code></td><td>3</td><td></td></tr>
+</table>
+          @attr name android.support.v7.appcompat:type
+        */
+        public static int CalendarView_type = 0;
         /** Attributes that can be used with a CollapsingToolbarLayout.
            <p>Includes the following attributes:</p>
            <table>
@@ -7523,6 +8407,2251 @@ containing a value of this type.
           @attr name android.support.v7.appcompat:buttonTintMode
         */
         public static int CompoundButton_buttonTintMode = 2;
+        /** Attributes that can be used with a ConstraintLayout_Layout.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #ConstraintLayout_Layout_android_maxHeight android:maxHeight}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintLayout_Layout_android_maxWidth android:maxWidth}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintLayout_Layout_android_minHeight android:minHeight}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintLayout_Layout_android_minWidth android:minWidth}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintLayout_Layout_android_orientation android:orientation}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintLayout_Layout_barrierAllowsGoneWidgets android.support.v7.appcompat:barrierAllowsGoneWidgets}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintLayout_Layout_barrierDirection android.support.v7.appcompat:barrierDirection}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintLayout_Layout_chainUseRtl android.support.v7.appcompat:chainUseRtl}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintLayout_Layout_constraintSet android.support.v7.appcompat:constraintSet}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintLayout_Layout_constraint_referenced_ids android.support.v7.appcompat:constraint_referenced_ids}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constrainedHeight android.support.v7.appcompat:layout_constrainedHeight}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constrainedWidth android.support.v7.appcompat:layout_constrainedWidth}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintBaseline_creator android.support.v7.appcompat:layout_constraintBaseline_creator}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintBaseline_toBaselineOf android.support.v7.appcompat:layout_constraintBaseline_toBaselineOf}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintBottom_creator android.support.v7.appcompat:layout_constraintBottom_creator}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintBottom_toBottomOf android.support.v7.appcompat:layout_constraintBottom_toBottomOf}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintBottom_toTopOf android.support.v7.appcompat:layout_constraintBottom_toTopOf}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintCircle android.support.v7.appcompat:layout_constraintCircle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintCircleAngle android.support.v7.appcompat:layout_constraintCircleAngle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintCircleRadius android.support.v7.appcompat:layout_constraintCircleRadius}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintDimensionRatio android.support.v7.appcompat:layout_constraintDimensionRatio}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintEnd_toEndOf android.support.v7.appcompat:layout_constraintEnd_toEndOf}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintEnd_toStartOf android.support.v7.appcompat:layout_constraintEnd_toStartOf}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintGuide_begin android.support.v7.appcompat:layout_constraintGuide_begin}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintGuide_end android.support.v7.appcompat:layout_constraintGuide_end}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintGuide_percent android.support.v7.appcompat:layout_constraintGuide_percent}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHeight_default android.support.v7.appcompat:layout_constraintHeight_default}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHeight_max android.support.v7.appcompat:layout_constraintHeight_max}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHeight_min android.support.v7.appcompat:layout_constraintHeight_min}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHeight_percent android.support.v7.appcompat:layout_constraintHeight_percent}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHorizontal_bias android.support.v7.appcompat:layout_constraintHorizontal_bias}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHorizontal_chainStyle android.support.v7.appcompat:layout_constraintHorizontal_chainStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHorizontal_weight android.support.v7.appcompat:layout_constraintHorizontal_weight}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintLeft_creator android.support.v7.appcompat:layout_constraintLeft_creator}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintLeft_toLeftOf android.support.v7.appcompat:layout_constraintLeft_toLeftOf}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintLeft_toRightOf android.support.v7.appcompat:layout_constraintLeft_toRightOf}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintRight_creator android.support.v7.appcompat:layout_constraintRight_creator}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintRight_toLeftOf android.support.v7.appcompat:layout_constraintRight_toLeftOf}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintRight_toRightOf android.support.v7.appcompat:layout_constraintRight_toRightOf}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintStart_toEndOf android.support.v7.appcompat:layout_constraintStart_toEndOf}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintStart_toStartOf android.support.v7.appcompat:layout_constraintStart_toStartOf}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintTop_creator android.support.v7.appcompat:layout_constraintTop_creator}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintTop_toBottomOf android.support.v7.appcompat:layout_constraintTop_toBottomOf}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintTop_toTopOf android.support.v7.appcompat:layout_constraintTop_toTopOf}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintVertical_bias android.support.v7.appcompat:layout_constraintVertical_bias}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintVertical_chainStyle android.support.v7.appcompat:layout_constraintVertical_chainStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintVertical_weight android.support.v7.appcompat:layout_constraintVertical_weight}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintWidth_default android.support.v7.appcompat:layout_constraintWidth_default}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintWidth_max android.support.v7.appcompat:layout_constraintWidth_max}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintWidth_min android.support.v7.appcompat:layout_constraintWidth_min}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintWidth_percent android.support.v7.appcompat:layout_constraintWidth_percent}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintLayout_Layout_layout_editor_absoluteX android.support.v7.appcompat:layout_editor_absoluteX}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintLayout_Layout_layout_editor_absoluteY android.support.v7.appcompat:layout_editor_absoluteY}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginBottom android.support.v7.appcompat:layout_goneMarginBottom}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginEnd android.support.v7.appcompat:layout_goneMarginEnd}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginLeft android.support.v7.appcompat:layout_goneMarginLeft}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginRight android.support.v7.appcompat:layout_goneMarginRight}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginStart android.support.v7.appcompat:layout_goneMarginStart}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginTop android.support.v7.appcompat:layout_goneMarginTop}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintLayout_Layout_layout_optimizationLevel android.support.v7.appcompat:layout_optimizationLevel}</code></td><td></td></tr>
+           </table>
+           @see #ConstraintLayout_Layout_android_maxHeight
+           @see #ConstraintLayout_Layout_android_maxWidth
+           @see #ConstraintLayout_Layout_android_minHeight
+           @see #ConstraintLayout_Layout_android_minWidth
+           @see #ConstraintLayout_Layout_android_orientation
+           @see #ConstraintLayout_Layout_barrierAllowsGoneWidgets
+           @see #ConstraintLayout_Layout_barrierDirection
+           @see #ConstraintLayout_Layout_chainUseRtl
+           @see #ConstraintLayout_Layout_constraintSet
+           @see #ConstraintLayout_Layout_constraint_referenced_ids
+           @see #ConstraintLayout_Layout_layout_constrainedHeight
+           @see #ConstraintLayout_Layout_layout_constrainedWidth
+           @see #ConstraintLayout_Layout_layout_constraintBaseline_creator
+           @see #ConstraintLayout_Layout_layout_constraintBaseline_toBaselineOf
+           @see #ConstraintLayout_Layout_layout_constraintBottom_creator
+           @see #ConstraintLayout_Layout_layout_constraintBottom_toBottomOf
+           @see #ConstraintLayout_Layout_layout_constraintBottom_toTopOf
+           @see #ConstraintLayout_Layout_layout_constraintCircle
+           @see #ConstraintLayout_Layout_layout_constraintCircleAngle
+           @see #ConstraintLayout_Layout_layout_constraintCircleRadius
+           @see #ConstraintLayout_Layout_layout_constraintDimensionRatio
+           @see #ConstraintLayout_Layout_layout_constraintEnd_toEndOf
+           @see #ConstraintLayout_Layout_layout_constraintEnd_toStartOf
+           @see #ConstraintLayout_Layout_layout_constraintGuide_begin
+           @see #ConstraintLayout_Layout_layout_constraintGuide_end
+           @see #ConstraintLayout_Layout_layout_constraintGuide_percent
+           @see #ConstraintLayout_Layout_layout_constraintHeight_default
+           @see #ConstraintLayout_Layout_layout_constraintHeight_max
+           @see #ConstraintLayout_Layout_layout_constraintHeight_min
+           @see #ConstraintLayout_Layout_layout_constraintHeight_percent
+           @see #ConstraintLayout_Layout_layout_constraintHorizontal_bias
+           @see #ConstraintLayout_Layout_layout_constraintHorizontal_chainStyle
+           @see #ConstraintLayout_Layout_layout_constraintHorizontal_weight
+           @see #ConstraintLayout_Layout_layout_constraintLeft_creator
+           @see #ConstraintLayout_Layout_layout_constraintLeft_toLeftOf
+           @see #ConstraintLayout_Layout_layout_constraintLeft_toRightOf
+           @see #ConstraintLayout_Layout_layout_constraintRight_creator
+           @see #ConstraintLayout_Layout_layout_constraintRight_toLeftOf
+           @see #ConstraintLayout_Layout_layout_constraintRight_toRightOf
+           @see #ConstraintLayout_Layout_layout_constraintStart_toEndOf
+           @see #ConstraintLayout_Layout_layout_constraintStart_toStartOf
+           @see #ConstraintLayout_Layout_layout_constraintTop_creator
+           @see #ConstraintLayout_Layout_layout_constraintTop_toBottomOf
+           @see #ConstraintLayout_Layout_layout_constraintTop_toTopOf
+           @see #ConstraintLayout_Layout_layout_constraintVertical_bias
+           @see #ConstraintLayout_Layout_layout_constraintVertical_chainStyle
+           @see #ConstraintLayout_Layout_layout_constraintVertical_weight
+           @see #ConstraintLayout_Layout_layout_constraintWidth_default
+           @see #ConstraintLayout_Layout_layout_constraintWidth_max
+           @see #ConstraintLayout_Layout_layout_constraintWidth_min
+           @see #ConstraintLayout_Layout_layout_constraintWidth_percent
+           @see #ConstraintLayout_Layout_layout_editor_absoluteX
+           @see #ConstraintLayout_Layout_layout_editor_absoluteY
+           @see #ConstraintLayout_Layout_layout_goneMarginBottom
+           @see #ConstraintLayout_Layout_layout_goneMarginEnd
+           @see #ConstraintLayout_Layout_layout_goneMarginLeft
+           @see #ConstraintLayout_Layout_layout_goneMarginRight
+           @see #ConstraintLayout_Layout_layout_goneMarginStart
+           @see #ConstraintLayout_Layout_layout_goneMarginTop
+           @see #ConstraintLayout_Layout_layout_optimizationLevel
+         */
+        public static final int[] ConstraintLayout_Layout = {
+            0x010100c4, 0x0101011f, 0x01010120, 0x0101013f,
+            0x01010140, 0x7f01016e, 0x7f01016f, 0x7f010170,
+            0x7f010171, 0x7f010172, 0x7f010175, 0x7f010176,
+            0x7f010177, 0x7f010178, 0x7f010179, 0x7f01017a,
+            0x7f01017b, 0x7f01017c, 0x7f01017d, 0x7f01017e,
+            0x7f01017f, 0x7f010180, 0x7f010181, 0x7f010182,
+            0x7f010183, 0x7f010184, 0x7f010185, 0x7f010186,
+            0x7f010187, 0x7f010188, 0x7f010189, 0x7f01018a,
+            0x7f01018b, 0x7f01018c, 0x7f01018d, 0x7f01018e,
+            0x7f01018f, 0x7f010190, 0x7f010191, 0x7f010192,
+            0x7f010193, 0x7f010194, 0x7f010195, 0x7f010196,
+            0x7f010197, 0x7f010198, 0x7f010199, 0x7f01019a,
+            0x7f01019b, 0x7f01019c, 0x7f01019d, 0x7f01019e,
+            0x7f01019f, 0x7f0101a0, 0x7f0101a1, 0x7f0101a2,
+            0x7f0101a3, 0x7f0101a4, 0x7f0101a5, 0x7f0101a6
+        };
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#maxHeight}
+          attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+          @attr name android:maxHeight
+        */
+        public static int ConstraintLayout_Layout_android_maxHeight = 2;
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#maxWidth}
+          attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+          @attr name android:maxWidth
+        */
+        public static int ConstraintLayout_Layout_android_maxWidth = 1;
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#minHeight}
+          attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+          @attr name android:minHeight
+        */
+        public static int ConstraintLayout_Layout_android_minHeight = 4;
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#minWidth}
+          attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+          @attr name android:minWidth
+        */
+        public static int ConstraintLayout_Layout_android_minWidth = 3;
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#orientation}
+          attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+          @attr name android:orientation
+        */
+        public static int ConstraintLayout_Layout_android_orientation = 0;
+        /**
+          <p>This symbol is the offset where the {@link android.support.v7.appcompat.R.attr#barrierAllowsGoneWidgets}
+          attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name android.support.v7.appcompat:barrierAllowsGoneWidgets
+        */
+        public static int ConstraintLayout_Layout_barrierAllowsGoneWidgets = 5;
+        /**
+          <p>This symbol is the offset where the {@link android.support.v7.appcompat.R.attr#barrierDirection}
+          attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+
+
+          <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>left</code></td><td>0</td><td></td></tr>
+<tr><td><code>right</code></td><td>1</td><td></td></tr>
+<tr><td><code>top</code></td><td>2</td><td></td></tr>
+<tr><td><code>bottom</code></td><td>3</td><td></td></tr>
+<tr><td><code>start</code></td><td>5</td><td></td></tr>
+<tr><td><code>end</code></td><td>6</td><td></td></tr>
+</table>
+          @attr name android.support.v7.appcompat:barrierDirection
+        */
+        public static int ConstraintLayout_Layout_barrierDirection = 6;
+        /**
+          <p>This symbol is the offset where the {@link android.support.v7.appcompat.R.attr#chainUseRtl}
+          attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name android.support.v7.appcompat:chainUseRtl
+        */
+        public static int ConstraintLayout_Layout_chainUseRtl = 7;
+        /**
+          <p>This symbol is the offset where the {@link android.support.v7.appcompat.R.attr#constraintSet}
+          attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name android.support.v7.appcompat:constraintSet
+        */
+        public static int ConstraintLayout_Layout_constraintSet = 8;
+        /**
+          <p>This symbol is the offset where the {@link android.support.v7.appcompat.R.attr#constraint_referenced_ids}
+          attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+
+
+          <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name android.support.v7.appcompat:constraint_referenced_ids
+        */
+        public static int ConstraintLayout_Layout_constraint_referenced_ids = 9;
+        /**
+          <p>This symbol is the offset where the {@link android.support.v7.appcompat.R.attr#layout_constrainedHeight}
+          attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name android.support.v7.appcompat:layout_constrainedHeight
+        */
+        public static int ConstraintLayout_Layout_layout_constrainedHeight = 10;
+        /**
+          <p>This symbol is the offset where the {@link android.support.v7.appcompat.R.attr#layout_constrainedWidth}
+          attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name android.support.v7.appcompat:layout_constrainedWidth
+        */
+        public static int ConstraintLayout_Layout_layout_constrainedWidth = 11;
+        /**
+          <p>This symbol is the offset where the {@link android.support.v7.appcompat.R.attr#layout_constraintBaseline_creator}
+          attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+
+
+          <p>Must be an integer value, such as "<code>100</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name android.support.v7.appcompat:layout_constraintBaseline_creator
+        */
+        public static int ConstraintLayout_Layout_layout_constraintBaseline_creator = 12;
+        /**
+          <p>This symbol is the offset where the {@link android.support.v7.appcompat.R.attr#layout_constraintBaseline_toBaselineOf}
+          attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+
+
+          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>parent</code></td><td>0</td><td></td></tr>
+</table>
+          @attr name android.support.v7.appcompat:layout_constraintBaseline_toBaselineOf
+        */
+        public static int ConstraintLayout_Layout_layout_constraintBaseline_toBaselineOf = 13;
+        /**
+          <p>This symbol is the offset where the {@link android.support.v7.appcompat.R.attr#layout_constraintBottom_creator}
+          attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+
+
+          <p>Must be an integer value, such as "<code>100</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name android.support.v7.appcompat:layout_constraintBottom_creator
+        */
+        public static int ConstraintLayout_Layout_layout_constraintBottom_creator = 14;
+        /**
+          <p>This symbol is the offset where the {@link android.support.v7.appcompat.R.attr#layout_constraintBottom_toBottomOf}
+          attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+
+
+          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>parent</code></td><td>0</td><td></td></tr>
+</table>
+          @attr name android.support.v7.appcompat:layout_constraintBottom_toBottomOf
+        */
+        public static int ConstraintLayout_Layout_layout_constraintBottom_toBottomOf = 15;
+        /**
+          <p>This symbol is the offset where the {@link android.support.v7.appcompat.R.attr#layout_constraintBottom_toTopOf}
+          attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+
+
+          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>parent</code></td><td>0</td><td></td></tr>
+</table>
+          @attr name android.support.v7.appcompat:layout_constraintBottom_toTopOf
+        */
+        public static int ConstraintLayout_Layout_layout_constraintBottom_toTopOf = 16;
+        /**
+          <p>This symbol is the offset where the {@link android.support.v7.appcompat.R.attr#layout_constraintCircle}
+          attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name android.support.v7.appcompat:layout_constraintCircle
+        */
+        public static int ConstraintLayout_Layout_layout_constraintCircle = 17;
+        /**
+          <p>This symbol is the offset where the {@link android.support.v7.appcompat.R.attr#layout_constraintCircleAngle}
+          attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+
+
+          <p>Must be an integer value, such as "<code>100</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name android.support.v7.appcompat:layout_constraintCircleAngle
+        */
+        public static int ConstraintLayout_Layout_layout_constraintCircleAngle = 18;
+        /**
+          <p>This symbol is the offset where the {@link android.support.v7.appcompat.R.attr#layout_constraintCircleRadius}
+          attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name android.support.v7.appcompat:layout_constraintCircleRadius
+        */
+        public static int ConstraintLayout_Layout_layout_constraintCircleRadius = 19;
+        /**
+          <p>This symbol is the offset where the {@link android.support.v7.appcompat.R.attr#layout_constraintDimensionRatio}
+          attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+
+
+          <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name android.support.v7.appcompat:layout_constraintDimensionRatio
+        */
+        public static int ConstraintLayout_Layout_layout_constraintDimensionRatio = 20;
+        /**
+          <p>This symbol is the offset where the {@link android.support.v7.appcompat.R.attr#layout_constraintEnd_toEndOf}
+          attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+
+
+          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>parent</code></td><td>0</td><td></td></tr>
+</table>
+          @attr name android.support.v7.appcompat:layout_constraintEnd_toEndOf
+        */
+        public static int ConstraintLayout_Layout_layout_constraintEnd_toEndOf = 21;
+        /**
+          <p>This symbol is the offset where the {@link android.support.v7.appcompat.R.attr#layout_constraintEnd_toStartOf}
+          attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+
+
+          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>parent</code></td><td>0</td><td></td></tr>
+</table>
+          @attr name android.support.v7.appcompat:layout_constraintEnd_toStartOf
+        */
+        public static int ConstraintLayout_Layout_layout_constraintEnd_toStartOf = 22;
+        /**
+          <p>This symbol is the offset where the {@link android.support.v7.appcompat.R.attr#layout_constraintGuide_begin}
+          attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name android.support.v7.appcompat:layout_constraintGuide_begin
+        */
+        public static int ConstraintLayout_Layout_layout_constraintGuide_begin = 23;
+        /**
+          <p>This symbol is the offset where the {@link android.support.v7.appcompat.R.attr#layout_constraintGuide_end}
+          attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name android.support.v7.appcompat:layout_constraintGuide_end
+        */
+        public static int ConstraintLayout_Layout_layout_constraintGuide_end = 24;
+        /**
+          <p>This symbol is the offset where the {@link android.support.v7.appcompat.R.attr#layout_constraintGuide_percent}
+          attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name android.support.v7.appcompat:layout_constraintGuide_percent
+        */
+        public static int ConstraintLayout_Layout_layout_constraintGuide_percent = 25;
+        /**
+          <p>This symbol is the offset where the {@link android.support.v7.appcompat.R.attr#layout_constraintHeight_default}
+          attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+
+
+          <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>spread</code></td><td>0</td><td></td></tr>
+<tr><td><code>wrap</code></td><td>1</td><td></td></tr>
+<tr><td><code>percent</code></td><td>2</td><td></td></tr>
+</table>
+          @attr name android.support.v7.appcompat:layout_constraintHeight_default
+        */
+        public static int ConstraintLayout_Layout_layout_constraintHeight_default = 26;
+        /**
+          <p>This symbol is the offset where the {@link android.support.v7.appcompat.R.attr#layout_constraintHeight_max}
+          attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+
+
+          <p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+<p>May be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>wrap</code></td><td>-2</td><td></td></tr>
+</table>
+          @attr name android.support.v7.appcompat:layout_constraintHeight_max
+        */
+        public static int ConstraintLayout_Layout_layout_constraintHeight_max = 27;
+        /**
+          <p>This symbol is the offset where the {@link android.support.v7.appcompat.R.attr#layout_constraintHeight_min}
+          attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+
+
+          <p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+<p>May be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>wrap</code></td><td>-2</td><td></td></tr>
+</table>
+          @attr name android.support.v7.appcompat:layout_constraintHeight_min
+        */
+        public static int ConstraintLayout_Layout_layout_constraintHeight_min = 28;
+        /**
+          <p>This symbol is the offset where the {@link android.support.v7.appcompat.R.attr#layout_constraintHeight_percent}
+          attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name android.support.v7.appcompat:layout_constraintHeight_percent
+        */
+        public static int ConstraintLayout_Layout_layout_constraintHeight_percent = 29;
+        /**
+          <p>This symbol is the offset where the {@link android.support.v7.appcompat.R.attr#layout_constraintHorizontal_bias}
+          attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name android.support.v7.appcompat:layout_constraintHorizontal_bias
+        */
+        public static int ConstraintLayout_Layout_layout_constraintHorizontal_bias = 30;
+        /**
+          <p>This symbol is the offset where the {@link android.support.v7.appcompat.R.attr#layout_constraintHorizontal_chainStyle}
+          attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+
+
+          <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>spread</code></td><td>0</td><td></td></tr>
+<tr><td><code>spread_inside</code></td><td>1</td><td></td></tr>
+<tr><td><code>packed</code></td><td>2</td><td></td></tr>
+</table>
+          @attr name android.support.v7.appcompat:layout_constraintHorizontal_chainStyle
+        */
+        public static int ConstraintLayout_Layout_layout_constraintHorizontal_chainStyle = 31;
+        /**
+          <p>This symbol is the offset where the {@link android.support.v7.appcompat.R.attr#layout_constraintHorizontal_weight}
+          attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name android.support.v7.appcompat:layout_constraintHorizontal_weight
+        */
+        public static int ConstraintLayout_Layout_layout_constraintHorizontal_weight = 32;
+        /**
+          <p>This symbol is the offset where the {@link android.support.v7.appcompat.R.attr#layout_constraintLeft_creator}
+          attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+
+
+          <p>Must be an integer value, such as "<code>100</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name android.support.v7.appcompat:layout_constraintLeft_creator
+        */
+        public static int ConstraintLayout_Layout_layout_constraintLeft_creator = 33;
+        /**
+          <p>This symbol is the offset where the {@link android.support.v7.appcompat.R.attr#layout_constraintLeft_toLeftOf}
+          attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+
+
+          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>parent</code></td><td>0</td><td></td></tr>
+</table>
+          @attr name android.support.v7.appcompat:layout_constraintLeft_toLeftOf
+        */
+        public static int ConstraintLayout_Layout_layout_constraintLeft_toLeftOf = 34;
+        /**
+          <p>This symbol is the offset where the {@link android.support.v7.appcompat.R.attr#layout_constraintLeft_toRightOf}
+          attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+
+
+          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>parent</code></td><td>0</td><td></td></tr>
+</table>
+          @attr name android.support.v7.appcompat:layout_constraintLeft_toRightOf
+        */
+        public static int ConstraintLayout_Layout_layout_constraintLeft_toRightOf = 35;
+        /**
+          <p>This symbol is the offset where the {@link android.support.v7.appcompat.R.attr#layout_constraintRight_creator}
+          attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+
+
+          <p>Must be an integer value, such as "<code>100</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name android.support.v7.appcompat:layout_constraintRight_creator
+        */
+        public static int ConstraintLayout_Layout_layout_constraintRight_creator = 36;
+        /**
+          <p>This symbol is the offset where the {@link android.support.v7.appcompat.R.attr#layout_constraintRight_toLeftOf}
+          attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+
+
+          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>parent</code></td><td>0</td><td></td></tr>
+</table>
+          @attr name android.support.v7.appcompat:layout_constraintRight_toLeftOf
+        */
+        public static int ConstraintLayout_Layout_layout_constraintRight_toLeftOf = 37;
+        /**
+          <p>This symbol is the offset where the {@link android.support.v7.appcompat.R.attr#layout_constraintRight_toRightOf}
+          attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+
+
+          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>parent</code></td><td>0</td><td></td></tr>
+</table>
+          @attr name android.support.v7.appcompat:layout_constraintRight_toRightOf
+        */
+        public static int ConstraintLayout_Layout_layout_constraintRight_toRightOf = 38;
+        /**
+          <p>This symbol is the offset where the {@link android.support.v7.appcompat.R.attr#layout_constraintStart_toEndOf}
+          attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+
+
+          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>parent</code></td><td>0</td><td></td></tr>
+</table>
+          @attr name android.support.v7.appcompat:layout_constraintStart_toEndOf
+        */
+        public static int ConstraintLayout_Layout_layout_constraintStart_toEndOf = 39;
+        /**
+          <p>This symbol is the offset where the {@link android.support.v7.appcompat.R.attr#layout_constraintStart_toStartOf}
+          attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+
+
+          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>parent</code></td><td>0</td><td></td></tr>
+</table>
+          @attr name android.support.v7.appcompat:layout_constraintStart_toStartOf
+        */
+        public static int ConstraintLayout_Layout_layout_constraintStart_toStartOf = 40;
+        /**
+          <p>This symbol is the offset where the {@link android.support.v7.appcompat.R.attr#layout_constraintTop_creator}
+          attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+
+
+          <p>Must be an integer value, such as "<code>100</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name android.support.v7.appcompat:layout_constraintTop_creator
+        */
+        public static int ConstraintLayout_Layout_layout_constraintTop_creator = 41;
+        /**
+          <p>This symbol is the offset where the {@link android.support.v7.appcompat.R.attr#layout_constraintTop_toBottomOf}
+          attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+
+
+          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>parent</code></td><td>0</td><td></td></tr>
+</table>
+          @attr name android.support.v7.appcompat:layout_constraintTop_toBottomOf
+        */
+        public static int ConstraintLayout_Layout_layout_constraintTop_toBottomOf = 42;
+        /**
+          <p>This symbol is the offset where the {@link android.support.v7.appcompat.R.attr#layout_constraintTop_toTopOf}
+          attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+
+
+          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>parent</code></td><td>0</td><td></td></tr>
+</table>
+          @attr name android.support.v7.appcompat:layout_constraintTop_toTopOf
+        */
+        public static int ConstraintLayout_Layout_layout_constraintTop_toTopOf = 43;
+        /**
+          <p>This symbol is the offset where the {@link android.support.v7.appcompat.R.attr#layout_constraintVertical_bias}
+          attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name android.support.v7.appcompat:layout_constraintVertical_bias
+        */
+        public static int ConstraintLayout_Layout_layout_constraintVertical_bias = 44;
+        /**
+          <p>This symbol is the offset where the {@link android.support.v7.appcompat.R.attr#layout_constraintVertical_chainStyle}
+          attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+
+
+          <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>spread</code></td><td>0</td><td></td></tr>
+<tr><td><code>spread_inside</code></td><td>1</td><td></td></tr>
+<tr><td><code>packed</code></td><td>2</td><td></td></tr>
+</table>
+          @attr name android.support.v7.appcompat:layout_constraintVertical_chainStyle
+        */
+        public static int ConstraintLayout_Layout_layout_constraintVertical_chainStyle = 45;
+        /**
+          <p>This symbol is the offset where the {@link android.support.v7.appcompat.R.attr#layout_constraintVertical_weight}
+          attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name android.support.v7.appcompat:layout_constraintVertical_weight
+        */
+        public static int ConstraintLayout_Layout_layout_constraintVertical_weight = 46;
+        /**
+          <p>This symbol is the offset where the {@link android.support.v7.appcompat.R.attr#layout_constraintWidth_default}
+          attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+
+
+          <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>spread</code></td><td>0</td><td></td></tr>
+<tr><td><code>wrap</code></td><td>1</td><td></td></tr>
+<tr><td><code>percent</code></td><td>2</td><td></td></tr>
+</table>
+          @attr name android.support.v7.appcompat:layout_constraintWidth_default
+        */
+        public static int ConstraintLayout_Layout_layout_constraintWidth_default = 47;
+        /**
+          <p>This symbol is the offset where the {@link android.support.v7.appcompat.R.attr#layout_constraintWidth_max}
+          attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+
+
+          <p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+<p>May be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>wrap</code></td><td>-2</td><td></td></tr>
+</table>
+          @attr name android.support.v7.appcompat:layout_constraintWidth_max
+        */
+        public static int ConstraintLayout_Layout_layout_constraintWidth_max = 48;
+        /**
+          <p>This symbol is the offset where the {@link android.support.v7.appcompat.R.attr#layout_constraintWidth_min}
+          attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+
+
+          <p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+<p>May be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>wrap</code></td><td>-2</td><td></td></tr>
+</table>
+          @attr name android.support.v7.appcompat:layout_constraintWidth_min
+        */
+        public static int ConstraintLayout_Layout_layout_constraintWidth_min = 49;
+        /**
+          <p>This symbol is the offset where the {@link android.support.v7.appcompat.R.attr#layout_constraintWidth_percent}
+          attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name android.support.v7.appcompat:layout_constraintWidth_percent
+        */
+        public static int ConstraintLayout_Layout_layout_constraintWidth_percent = 50;
+        /**
+          <p>This symbol is the offset where the {@link android.support.v7.appcompat.R.attr#layout_editor_absoluteX}
+          attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name android.support.v7.appcompat:layout_editor_absoluteX
+        */
+        public static int ConstraintLayout_Layout_layout_editor_absoluteX = 51;
+        /**
+          <p>This symbol is the offset where the {@link android.support.v7.appcompat.R.attr#layout_editor_absoluteY}
+          attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name android.support.v7.appcompat:layout_editor_absoluteY
+        */
+        public static int ConstraintLayout_Layout_layout_editor_absoluteY = 52;
+        /**
+          <p>This symbol is the offset where the {@link android.support.v7.appcompat.R.attr#layout_goneMarginBottom}
+          attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name android.support.v7.appcompat:layout_goneMarginBottom
+        */
+        public static int ConstraintLayout_Layout_layout_goneMarginBottom = 53;
+        /**
+          <p>This symbol is the offset where the {@link android.support.v7.appcompat.R.attr#layout_goneMarginEnd}
+          attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name android.support.v7.appcompat:layout_goneMarginEnd
+        */
+        public static int ConstraintLayout_Layout_layout_goneMarginEnd = 54;
+        /**
+          <p>This symbol is the offset where the {@link android.support.v7.appcompat.R.attr#layout_goneMarginLeft}
+          attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name android.support.v7.appcompat:layout_goneMarginLeft
+        */
+        public static int ConstraintLayout_Layout_layout_goneMarginLeft = 55;
+        /**
+          <p>This symbol is the offset where the {@link android.support.v7.appcompat.R.attr#layout_goneMarginRight}
+          attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name android.support.v7.appcompat:layout_goneMarginRight
+        */
+        public static int ConstraintLayout_Layout_layout_goneMarginRight = 56;
+        /**
+          <p>This symbol is the offset where the {@link android.support.v7.appcompat.R.attr#layout_goneMarginStart}
+          attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name android.support.v7.appcompat:layout_goneMarginStart
+        */
+        public static int ConstraintLayout_Layout_layout_goneMarginStart = 57;
+        /**
+          <p>This symbol is the offset where the {@link android.support.v7.appcompat.R.attr#layout_goneMarginTop}
+          attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name android.support.v7.appcompat:layout_goneMarginTop
+        */
+        public static int ConstraintLayout_Layout_layout_goneMarginTop = 58;
+        /**
+          <p>This symbol is the offset where the {@link android.support.v7.appcompat.R.attr#layout_optimizationLevel}
+          attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+
+
+          <p>Must be one or more (separated by '|') of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>none</code></td><td>0</td><td></td></tr>
+<tr><td><code>standard</code></td><td>3</td><td></td></tr>
+<tr><td><code>direct</code></td><td>1</td><td> for now only direct & barriers </td></tr>
+<tr><td><code>barrier</code></td><td>2</td><td></td></tr>
+<tr><td><code>chains</code></td><td>4</td><td></td></tr>
+<tr><td><code>dimensions</code></td><td>8</td><td></td></tr>
+</table>
+          @attr name android.support.v7.appcompat:layout_optimizationLevel
+        */
+        public static int ConstraintLayout_Layout_layout_optimizationLevel = 59;
+        /** Attributes that can be used with a ConstraintLayout_placeholder.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #ConstraintLayout_placeholder_content android.support.v7.appcompat:content}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintLayout_placeholder_emptyVisibility android.support.v7.appcompat:emptyVisibility}</code></td><td></td></tr>
+           </table>
+           @see #ConstraintLayout_placeholder_content
+           @see #ConstraintLayout_placeholder_emptyVisibility
+         */
+        public static final int[] ConstraintLayout_placeholder = {
+            0x7f010173, 0x7f010174
+        };
+        /**
+          <p>This symbol is the offset where the {@link android.support.v7.appcompat.R.attr#content}
+          attribute's value can be found in the {@link #ConstraintLayout_placeholder} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name android.support.v7.appcompat:content
+        */
+        public static int ConstraintLayout_placeholder_content = 0;
+        /**
+          <p>This symbol is the offset where the {@link android.support.v7.appcompat.R.attr#emptyVisibility}
+          attribute's value can be found in the {@link #ConstraintLayout_placeholder} array.
+
+
+          <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>gone</code></td><td>0</td><td></td></tr>
+<tr><td><code>invisible</code></td><td>1</td><td></td></tr>
+</table>
+          @attr name android.support.v7.appcompat:emptyVisibility
+        */
+        public static int ConstraintLayout_placeholder_emptyVisibility = 1;
+        /** Attributes that can be used with a ConstraintSet.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #ConstraintSet_android_alpha android:alpha}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintSet_android_elevation android:elevation}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintSet_android_id android:id}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintSet_android_layout_height android:layout_height}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintSet_android_layout_marginBottom android:layout_marginBottom}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintSet_android_layout_marginEnd android:layout_marginEnd}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintSet_android_layout_marginLeft android:layout_marginLeft}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintSet_android_layout_marginRight android:layout_marginRight}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintSet_android_layout_marginStart android:layout_marginStart}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintSet_android_layout_marginTop android:layout_marginTop}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintSet_android_layout_width android:layout_width}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintSet_android_orientation android:orientation}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintSet_android_rotation android:rotation}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintSet_android_rotationX android:rotationX}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintSet_android_rotationY android:rotationY}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintSet_android_scaleX android:scaleX}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintSet_android_scaleY android:scaleY}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintSet_android_transformPivotX android:transformPivotX}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintSet_android_transformPivotY android:transformPivotY}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintSet_android_translationX android:translationX}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintSet_android_translationY android:translationY}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintSet_android_translationZ android:translationZ}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintSet_android_visibility android:visibility}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintSet_layout_constrainedHeight android.support.v7.appcompat:layout_constrainedHeight}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintSet_layout_constrainedWidth android.support.v7.appcompat:layout_constrainedWidth}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintSet_layout_constraintBaseline_creator android.support.v7.appcompat:layout_constraintBaseline_creator}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintSet_layout_constraintBaseline_toBaselineOf android.support.v7.appcompat:layout_constraintBaseline_toBaselineOf}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintSet_layout_constraintBottom_creator android.support.v7.appcompat:layout_constraintBottom_creator}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintSet_layout_constraintBottom_toBottomOf android.support.v7.appcompat:layout_constraintBottom_toBottomOf}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintSet_layout_constraintBottom_toTopOf android.support.v7.appcompat:layout_constraintBottom_toTopOf}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintSet_layout_constraintCircle android.support.v7.appcompat:layout_constraintCircle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintSet_layout_constraintCircleAngle android.support.v7.appcompat:layout_constraintCircleAngle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintSet_layout_constraintCircleRadius android.support.v7.appcompat:layout_constraintCircleRadius}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintSet_layout_constraintDimensionRatio android.support.v7.appcompat:layout_constraintDimensionRatio}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintSet_layout_constraintEnd_toEndOf android.support.v7.appcompat:layout_constraintEnd_toEndOf}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintSet_layout_constraintEnd_toStartOf android.support.v7.appcompat:layout_constraintEnd_toStartOf}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintSet_layout_constraintGuide_begin android.support.v7.appcompat:layout_constraintGuide_begin}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintSet_layout_constraintGuide_end android.support.v7.appcompat:layout_constraintGuide_end}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintSet_layout_constraintGuide_percent android.support.v7.appcompat:layout_constraintGuide_percent}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintSet_layout_constraintHeight_default android.support.v7.appcompat:layout_constraintHeight_default}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintSet_layout_constraintHeight_max android.support.v7.appcompat:layout_constraintHeight_max}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintSet_layout_constraintHeight_min android.support.v7.appcompat:layout_constraintHeight_min}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintSet_layout_constraintHeight_percent android.support.v7.appcompat:layout_constraintHeight_percent}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintSet_layout_constraintHorizontal_bias android.support.v7.appcompat:layout_constraintHorizontal_bias}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintSet_layout_constraintHorizontal_chainStyle android.support.v7.appcompat:layout_constraintHorizontal_chainStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintSet_layout_constraintHorizontal_weight android.support.v7.appcompat:layout_constraintHorizontal_weight}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintSet_layout_constraintLeft_creator android.support.v7.appcompat:layout_constraintLeft_creator}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintSet_layout_constraintLeft_toLeftOf android.support.v7.appcompat:layout_constraintLeft_toLeftOf}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintSet_layout_constraintLeft_toRightOf android.support.v7.appcompat:layout_constraintLeft_toRightOf}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintSet_layout_constraintRight_creator android.support.v7.appcompat:layout_constraintRight_creator}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintSet_layout_constraintRight_toLeftOf android.support.v7.appcompat:layout_constraintRight_toLeftOf}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintSet_layout_constraintRight_toRightOf android.support.v7.appcompat:layout_constraintRight_toRightOf}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintSet_layout_constraintStart_toEndOf android.support.v7.appcompat:layout_constraintStart_toEndOf}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintSet_layout_constraintStart_toStartOf android.support.v7.appcompat:layout_constraintStart_toStartOf}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintSet_layout_constraintTop_creator android.support.v7.appcompat:layout_constraintTop_creator}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintSet_layout_constraintTop_toBottomOf android.support.v7.appcompat:layout_constraintTop_toBottomOf}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintSet_layout_constraintTop_toTopOf android.support.v7.appcompat:layout_constraintTop_toTopOf}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintSet_layout_constraintVertical_bias android.support.v7.appcompat:layout_constraintVertical_bias}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintSet_layout_constraintVertical_chainStyle android.support.v7.appcompat:layout_constraintVertical_chainStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintSet_layout_constraintVertical_weight android.support.v7.appcompat:layout_constraintVertical_weight}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintSet_layout_constraintWidth_default android.support.v7.appcompat:layout_constraintWidth_default}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintSet_layout_constraintWidth_max android.support.v7.appcompat:layout_constraintWidth_max}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintSet_layout_constraintWidth_min android.support.v7.appcompat:layout_constraintWidth_min}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintSet_layout_constraintWidth_percent android.support.v7.appcompat:layout_constraintWidth_percent}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintSet_layout_editor_absoluteX android.support.v7.appcompat:layout_editor_absoluteX}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintSet_layout_editor_absoluteY android.support.v7.appcompat:layout_editor_absoluteY}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintSet_layout_goneMarginBottom android.support.v7.appcompat:layout_goneMarginBottom}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintSet_layout_goneMarginEnd android.support.v7.appcompat:layout_goneMarginEnd}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintSet_layout_goneMarginLeft android.support.v7.appcompat:layout_goneMarginLeft}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintSet_layout_goneMarginRight android.support.v7.appcompat:layout_goneMarginRight}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintSet_layout_goneMarginStart android.support.v7.appcompat:layout_goneMarginStart}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintSet_layout_goneMarginTop android.support.v7.appcompat:layout_goneMarginTop}</code></td><td></td></tr>
+           </table>
+           @see #ConstraintSet_android_alpha
+           @see #ConstraintSet_android_elevation
+           @see #ConstraintSet_android_id
+           @see #ConstraintSet_android_layout_height
+           @see #ConstraintSet_android_layout_marginBottom
+           @see #ConstraintSet_android_layout_marginEnd
+           @see #ConstraintSet_android_layout_marginLeft
+           @see #ConstraintSet_android_layout_marginRight
+           @see #ConstraintSet_android_layout_marginStart
+           @see #ConstraintSet_android_layout_marginTop
+           @see #ConstraintSet_android_layout_width
+           @see #ConstraintSet_android_orientation
+           @see #ConstraintSet_android_rotation
+           @see #ConstraintSet_android_rotationX
+           @see #ConstraintSet_android_rotationY
+           @see #ConstraintSet_android_scaleX
+           @see #ConstraintSet_android_scaleY
+           @see #ConstraintSet_android_transformPivotX
+           @see #ConstraintSet_android_transformPivotY
+           @see #ConstraintSet_android_translationX
+           @see #ConstraintSet_android_translationY
+           @see #ConstraintSet_android_translationZ
+           @see #ConstraintSet_android_visibility
+           @see #ConstraintSet_layout_constrainedHeight
+           @see #ConstraintSet_layout_constrainedWidth
+           @see #ConstraintSet_layout_constraintBaseline_creator
+           @see #ConstraintSet_layout_constraintBaseline_toBaselineOf
+           @see #ConstraintSet_layout_constraintBottom_creator
+           @see #ConstraintSet_layout_constraintBottom_toBottomOf
+           @see #ConstraintSet_layout_constraintBottom_toTopOf
+           @see #ConstraintSet_layout_constraintCircle
+           @see #ConstraintSet_layout_constraintCircleAngle
+           @see #ConstraintSet_layout_constraintCircleRadius
+           @see #ConstraintSet_layout_constraintDimensionRatio
+           @see #ConstraintSet_layout_constraintEnd_toEndOf
+           @see #ConstraintSet_layout_constraintEnd_toStartOf
+           @see #ConstraintSet_layout_constraintGuide_begin
+           @see #ConstraintSet_layout_constraintGuide_end
+           @see #ConstraintSet_layout_constraintGuide_percent
+           @see #ConstraintSet_layout_constraintHeight_default
+           @see #ConstraintSet_layout_constraintHeight_max
+           @see #ConstraintSet_layout_constraintHeight_min
+           @see #ConstraintSet_layout_constraintHeight_percent
+           @see #ConstraintSet_layout_constraintHorizontal_bias
+           @see #ConstraintSet_layout_constraintHorizontal_chainStyle
+           @see #ConstraintSet_layout_constraintHorizontal_weight
+           @see #ConstraintSet_layout_constraintLeft_creator
+           @see #ConstraintSet_layout_constraintLeft_toLeftOf
+           @see #ConstraintSet_layout_constraintLeft_toRightOf
+           @see #ConstraintSet_layout_constraintRight_creator
+           @see #ConstraintSet_layout_constraintRight_toLeftOf
+           @see #ConstraintSet_layout_constraintRight_toRightOf
+           @see #ConstraintSet_layout_constraintStart_toEndOf
+           @see #ConstraintSet_layout_constraintStart_toStartOf
+           @see #ConstraintSet_layout_constraintTop_creator
+           @see #ConstraintSet_layout_constraintTop_toBottomOf
+           @see #ConstraintSet_layout_constraintTop_toTopOf
+           @see #ConstraintSet_layout_constraintVertical_bias
+           @see #ConstraintSet_layout_constraintVertical_chainStyle
+           @see #ConstraintSet_layout_constraintVertical_weight
+           @see #ConstraintSet_layout_constraintWidth_default
+           @see #ConstraintSet_layout_constraintWidth_max
+           @see #ConstraintSet_layout_constraintWidth_min
+           @see #ConstraintSet_layout_constraintWidth_percent
+           @see #ConstraintSet_layout_editor_absoluteX
+           @see #ConstraintSet_layout_editor_absoluteY
+           @see #ConstraintSet_layout_goneMarginBottom
+           @see #ConstraintSet_layout_goneMarginEnd
+           @see #ConstraintSet_layout_goneMarginLeft
+           @see #ConstraintSet_layout_goneMarginRight
+           @see #ConstraintSet_layout_goneMarginStart
+           @see #ConstraintSet_layout_goneMarginTop
+         */
+        public static final int[] ConstraintSet = {
+            0x010100c4, 0x010100d0, 0x010100dc, 0x010100f4,
+            0x010100f5, 0x010100f7, 0x010100f8, 0x010100f9,
+            0x010100fa, 0x0101031f, 0x01010320, 0x01010321,
+            0x01010322, 0x01010323, 0x01010324, 0x01010325,
+            0x01010326, 0x01010327, 0x01010328, 0x010103b5,
+            0x010103b6, 0x010103fa, 0x01010440, 0x7f010175,
+            0x7f010176, 0x7f010177, 0x7f010178, 0x7f010179,
+            0x7f01017a, 0x7f01017b, 0x7f01017c, 0x7f01017d,
+            0x7f01017e, 0x7f01017f, 0x7f010180, 0x7f010181,
+            0x7f010182, 0x7f010183, 0x7f010184, 0x7f010185,
+            0x7f010186, 0x7f010187, 0x7f010188, 0x7f010189,
+            0x7f01018a, 0x7f01018b, 0x7f01018c, 0x7f01018d,
+            0x7f01018e, 0x7f01018f, 0x7f010190, 0x7f010191,
+            0x7f010192, 0x7f010193, 0x7f010194, 0x7f010195,
+            0x7f010196, 0x7f010197, 0x7f010198, 0x7f010199,
+            0x7f01019a, 0x7f01019b, 0x7f01019c, 0x7f01019d,
+            0x7f01019e, 0x7f01019f, 0x7f0101a0, 0x7f0101a1,
+            0x7f0101a2, 0x7f0101a3, 0x7f0101a4, 0x7f0101a5
+        };
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#alpha}
+          attribute's value can be found in the {@link #ConstraintSet} array.
+          @attr name android:alpha
+        */
+        public static int ConstraintSet_android_alpha = 9;
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#elevation}
+          attribute's value can be found in the {@link #ConstraintSet} array.
+          @attr name android:elevation
+        */
+        public static int ConstraintSet_android_elevation = 22;
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#id}
+          attribute's value can be found in the {@link #ConstraintSet} array.
+          @attr name android:id
+        */
+        public static int ConstraintSet_android_id = 1;
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#layout_height}
+          attribute's value can be found in the {@link #ConstraintSet} array.
+          @attr name android:layout_height
+        */
+        public static int ConstraintSet_android_layout_height = 4;
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#layout_marginBottom}
+          attribute's value can be found in the {@link #ConstraintSet} array.
+          @attr name android:layout_marginBottom
+        */
+        public static int ConstraintSet_android_layout_marginBottom = 8;
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#layout_marginEnd}
+          attribute's value can be found in the {@link #ConstraintSet} array.
+          @attr name android:layout_marginEnd
+        */
+        public static int ConstraintSet_android_layout_marginEnd = 20;
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#layout_marginLeft}
+          attribute's value can be found in the {@link #ConstraintSet} array.
+          @attr name android:layout_marginLeft
+        */
+        public static int ConstraintSet_android_layout_marginLeft = 5;
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#layout_marginRight}
+          attribute's value can be found in the {@link #ConstraintSet} array.
+          @attr name android:layout_marginRight
+        */
+        public static int ConstraintSet_android_layout_marginRight = 7;
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#layout_marginStart}
+          attribute's value can be found in the {@link #ConstraintSet} array.
+          @attr name android:layout_marginStart
+        */
+        public static int ConstraintSet_android_layout_marginStart = 19;
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#layout_marginTop}
+          attribute's value can be found in the {@link #ConstraintSet} array.
+          @attr name android:layout_marginTop
+        */
+        public static int ConstraintSet_android_layout_marginTop = 6;
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#layout_width}
+          attribute's value can be found in the {@link #ConstraintSet} array.
+          @attr name android:layout_width
+        */
+        public static int ConstraintSet_android_layout_width = 3;
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#orientation}
+          attribute's value can be found in the {@link #ConstraintSet} array.
+          @attr name android:orientation
+        */
+        public static int ConstraintSet_android_orientation = 0;
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#rotation}
+          attribute's value can be found in the {@link #ConstraintSet} array.
+          @attr name android:rotation
+        */
+        public static int ConstraintSet_android_rotation = 16;
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#rotationX}
+          attribute's value can be found in the {@link #ConstraintSet} array.
+          @attr name android:rotationX
+        */
+        public static int ConstraintSet_android_rotationX = 17;
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#rotationY}
+          attribute's value can be found in the {@link #ConstraintSet} array.
+          @attr name android:rotationY
+        */
+        public static int ConstraintSet_android_rotationY = 18;
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#scaleX}
+          attribute's value can be found in the {@link #ConstraintSet} array.
+          @attr name android:scaleX
+        */
+        public static int ConstraintSet_android_scaleX = 14;
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#scaleY}
+          attribute's value can be found in the {@link #ConstraintSet} array.
+          @attr name android:scaleY
+        */
+        public static int ConstraintSet_android_scaleY = 15;
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#transformPivotX}
+          attribute's value can be found in the {@link #ConstraintSet} array.
+          @attr name android:transformPivotX
+        */
+        public static int ConstraintSet_android_transformPivotX = 10;
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#transformPivotY}
+          attribute's value can be found in the {@link #ConstraintSet} array.
+          @attr name android:transformPivotY
+        */
+        public static int ConstraintSet_android_transformPivotY = 11;
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#translationX}
+          attribute's value can be found in the {@link #ConstraintSet} array.
+          @attr name android:translationX
+        */
+        public static int ConstraintSet_android_translationX = 12;
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#translationY}
+          attribute's value can be found in the {@link #ConstraintSet} array.
+          @attr name android:translationY
+        */
+        public static int ConstraintSet_android_translationY = 13;
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#translationZ}
+          attribute's value can be found in the {@link #ConstraintSet} array.
+          @attr name android:translationZ
+        */
+        public static int ConstraintSet_android_translationZ = 21;
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#visibility}
+          attribute's value can be found in the {@link #ConstraintSet} array.
+          @attr name android:visibility
+        */
+        public static int ConstraintSet_android_visibility = 2;
+        /**
+          <p>This symbol is the offset where the {@link android.support.v7.appcompat.R.attr#layout_constrainedHeight}
+          attribute's value can be found in the {@link #ConstraintSet} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name android.support.v7.appcompat:layout_constrainedHeight
+        */
+        public static int ConstraintSet_layout_constrainedHeight = 23;
+        /**
+          <p>This symbol is the offset where the {@link android.support.v7.appcompat.R.attr#layout_constrainedWidth}
+          attribute's value can be found in the {@link #ConstraintSet} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name android.support.v7.appcompat:layout_constrainedWidth
+        */
+        public static int ConstraintSet_layout_constrainedWidth = 24;
+        /**
+          <p>This symbol is the offset where the {@link android.support.v7.appcompat.R.attr#layout_constraintBaseline_creator}
+          attribute's value can be found in the {@link #ConstraintSet} array.
+
+
+          <p>Must be an integer value, such as "<code>100</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name android.support.v7.appcompat:layout_constraintBaseline_creator
+        */
+        public static int ConstraintSet_layout_constraintBaseline_creator = 25;
+        /**
+          <p>This symbol is the offset where the {@link android.support.v7.appcompat.R.attr#layout_constraintBaseline_toBaselineOf}
+          attribute's value can be found in the {@link #ConstraintSet} array.
+
+
+          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>parent</code></td><td>0</td><td></td></tr>
+</table>
+          @attr name android.support.v7.appcompat:layout_constraintBaseline_toBaselineOf
+        */
+        public static int ConstraintSet_layout_constraintBaseline_toBaselineOf = 26;
+        /**
+          <p>This symbol is the offset where the {@link android.support.v7.appcompat.R.attr#layout_constraintBottom_creator}
+          attribute's value can be found in the {@link #ConstraintSet} array.
+
+
+          <p>Must be an integer value, such as "<code>100</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name android.support.v7.appcompat:layout_constraintBottom_creator
+        */
+        public static int ConstraintSet_layout_constraintBottom_creator = 27;
+        /**
+          <p>This symbol is the offset where the {@link android.support.v7.appcompat.R.attr#layout_constraintBottom_toBottomOf}
+          attribute's value can be found in the {@link #ConstraintSet} array.
+
+
+          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>parent</code></td><td>0</td><td></td></tr>
+</table>
+          @attr name android.support.v7.appcompat:layout_constraintBottom_toBottomOf
+        */
+        public static int ConstraintSet_layout_constraintBottom_toBottomOf = 28;
+        /**
+          <p>This symbol is the offset where the {@link android.support.v7.appcompat.R.attr#layout_constraintBottom_toTopOf}
+          attribute's value can be found in the {@link #ConstraintSet} array.
+
+
+          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>parent</code></td><td>0</td><td></td></tr>
+</table>
+          @attr name android.support.v7.appcompat:layout_constraintBottom_toTopOf
+        */
+        public static int ConstraintSet_layout_constraintBottom_toTopOf = 29;
+        /**
+          <p>This symbol is the offset where the {@link android.support.v7.appcompat.R.attr#layout_constraintCircle}
+          attribute's value can be found in the {@link #ConstraintSet} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name android.support.v7.appcompat:layout_constraintCircle
+        */
+        public static int ConstraintSet_layout_constraintCircle = 30;
+        /**
+          <p>This symbol is the offset where the {@link android.support.v7.appcompat.R.attr#layout_constraintCircleAngle}
+          attribute's value can be found in the {@link #ConstraintSet} array.
+
+
+          <p>Must be an integer value, such as "<code>100</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name android.support.v7.appcompat:layout_constraintCircleAngle
+        */
+        public static int ConstraintSet_layout_constraintCircleAngle = 31;
+        /**
+          <p>This symbol is the offset where the {@link android.support.v7.appcompat.R.attr#layout_constraintCircleRadius}
+          attribute's value can be found in the {@link #ConstraintSet} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name android.support.v7.appcompat:layout_constraintCircleRadius
+        */
+        public static int ConstraintSet_layout_constraintCircleRadius = 32;
+        /**
+          <p>This symbol is the offset where the {@link android.support.v7.appcompat.R.attr#layout_constraintDimensionRatio}
+          attribute's value can be found in the {@link #ConstraintSet} array.
+
+
+          <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name android.support.v7.appcompat:layout_constraintDimensionRatio
+        */
+        public static int ConstraintSet_layout_constraintDimensionRatio = 33;
+        /**
+          <p>This symbol is the offset where the {@link android.support.v7.appcompat.R.attr#layout_constraintEnd_toEndOf}
+          attribute's value can be found in the {@link #ConstraintSet} array.
+
+
+          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>parent</code></td><td>0</td><td></td></tr>
+</table>
+          @attr name android.support.v7.appcompat:layout_constraintEnd_toEndOf
+        */
+        public static int ConstraintSet_layout_constraintEnd_toEndOf = 34;
+        /**
+          <p>This symbol is the offset where the {@link android.support.v7.appcompat.R.attr#layout_constraintEnd_toStartOf}
+          attribute's value can be found in the {@link #ConstraintSet} array.
+
+
+          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>parent</code></td><td>0</td><td></td></tr>
+</table>
+          @attr name android.support.v7.appcompat:layout_constraintEnd_toStartOf
+        */
+        public static int ConstraintSet_layout_constraintEnd_toStartOf = 35;
+        /**
+          <p>This symbol is the offset where the {@link android.support.v7.appcompat.R.attr#layout_constraintGuide_begin}
+          attribute's value can be found in the {@link #ConstraintSet} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name android.support.v7.appcompat:layout_constraintGuide_begin
+        */
+        public static int ConstraintSet_layout_constraintGuide_begin = 36;
+        /**
+          <p>This symbol is the offset where the {@link android.support.v7.appcompat.R.attr#layout_constraintGuide_end}
+          attribute's value can be found in the {@link #ConstraintSet} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name android.support.v7.appcompat:layout_constraintGuide_end
+        */
+        public static int ConstraintSet_layout_constraintGuide_end = 37;
+        /**
+          <p>This symbol is the offset where the {@link android.support.v7.appcompat.R.attr#layout_constraintGuide_percent}
+          attribute's value can be found in the {@link #ConstraintSet} array.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name android.support.v7.appcompat:layout_constraintGuide_percent
+        */
+        public static int ConstraintSet_layout_constraintGuide_percent = 38;
+        /**
+          <p>This symbol is the offset where the {@link android.support.v7.appcompat.R.attr#layout_constraintHeight_default}
+          attribute's value can be found in the {@link #ConstraintSet} array.
+
+
+          <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>spread</code></td><td>0</td><td></td></tr>
+<tr><td><code>wrap</code></td><td>1</td><td></td></tr>
+<tr><td><code>percent</code></td><td>2</td><td></td></tr>
+</table>
+          @attr name android.support.v7.appcompat:layout_constraintHeight_default
+        */
+        public static int ConstraintSet_layout_constraintHeight_default = 39;
+        /**
+          <p>This symbol is the offset where the {@link android.support.v7.appcompat.R.attr#layout_constraintHeight_max}
+          attribute's value can be found in the {@link #ConstraintSet} array.
+
+
+          <p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+<p>May be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>wrap</code></td><td>-2</td><td></td></tr>
+</table>
+          @attr name android.support.v7.appcompat:layout_constraintHeight_max
+        */
+        public static int ConstraintSet_layout_constraintHeight_max = 40;
+        /**
+          <p>This symbol is the offset where the {@link android.support.v7.appcompat.R.attr#layout_constraintHeight_min}
+          attribute's value can be found in the {@link #ConstraintSet} array.
+
+
+          <p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+<p>May be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>wrap</code></td><td>-2</td><td></td></tr>
+</table>
+          @attr name android.support.v7.appcompat:layout_constraintHeight_min
+        */
+        public static int ConstraintSet_layout_constraintHeight_min = 41;
+        /**
+          <p>This symbol is the offset where the {@link android.support.v7.appcompat.R.attr#layout_constraintHeight_percent}
+          attribute's value can be found in the {@link #ConstraintSet} array.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name android.support.v7.appcompat:layout_constraintHeight_percent
+        */
+        public static int ConstraintSet_layout_constraintHeight_percent = 42;
+        /**
+          <p>This symbol is the offset where the {@link android.support.v7.appcompat.R.attr#layout_constraintHorizontal_bias}
+          attribute's value can be found in the {@link #ConstraintSet} array.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name android.support.v7.appcompat:layout_constraintHorizontal_bias
+        */
+        public static int ConstraintSet_layout_constraintHorizontal_bias = 43;
+        /**
+          <p>This symbol is the offset where the {@link android.support.v7.appcompat.R.attr#layout_constraintHorizontal_chainStyle}
+          attribute's value can be found in the {@link #ConstraintSet} array.
+
+
+          <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>spread</code></td><td>0</td><td></td></tr>
+<tr><td><code>spread_inside</code></td><td>1</td><td></td></tr>
+<tr><td><code>packed</code></td><td>2</td><td></td></tr>
+</table>
+          @attr name android.support.v7.appcompat:layout_constraintHorizontal_chainStyle
+        */
+        public static int ConstraintSet_layout_constraintHorizontal_chainStyle = 44;
+        /**
+          <p>This symbol is the offset where the {@link android.support.v7.appcompat.R.attr#layout_constraintHorizontal_weight}
+          attribute's value can be found in the {@link #ConstraintSet} array.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name android.support.v7.appcompat:layout_constraintHorizontal_weight
+        */
+        public static int ConstraintSet_layout_constraintHorizontal_weight = 45;
+        /**
+          <p>This symbol is the offset where the {@link android.support.v7.appcompat.R.attr#layout_constraintLeft_creator}
+          attribute's value can be found in the {@link #ConstraintSet} array.
+
+
+          <p>Must be an integer value, such as "<code>100</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name android.support.v7.appcompat:layout_constraintLeft_creator
+        */
+        public static int ConstraintSet_layout_constraintLeft_creator = 46;
+        /**
+          <p>This symbol is the offset where the {@link android.support.v7.appcompat.R.attr#layout_constraintLeft_toLeftOf}
+          attribute's value can be found in the {@link #ConstraintSet} array.
+
+
+          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>parent</code></td><td>0</td><td></td></tr>
+</table>
+          @attr name android.support.v7.appcompat:layout_constraintLeft_toLeftOf
+        */
+        public static int ConstraintSet_layout_constraintLeft_toLeftOf = 47;
+        /**
+          <p>This symbol is the offset where the {@link android.support.v7.appcompat.R.attr#layout_constraintLeft_toRightOf}
+          attribute's value can be found in the {@link #ConstraintSet} array.
+
+
+          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>parent</code></td><td>0</td><td></td></tr>
+</table>
+          @attr name android.support.v7.appcompat:layout_constraintLeft_toRightOf
+        */
+        public static int ConstraintSet_layout_constraintLeft_toRightOf = 48;
+        /**
+          <p>This symbol is the offset where the {@link android.support.v7.appcompat.R.attr#layout_constraintRight_creator}
+          attribute's value can be found in the {@link #ConstraintSet} array.
+
+
+          <p>Must be an integer value, such as "<code>100</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name android.support.v7.appcompat:layout_constraintRight_creator
+        */
+        public static int ConstraintSet_layout_constraintRight_creator = 49;
+        /**
+          <p>This symbol is the offset where the {@link android.support.v7.appcompat.R.attr#layout_constraintRight_toLeftOf}
+          attribute's value can be found in the {@link #ConstraintSet} array.
+
+
+          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>parent</code></td><td>0</td><td></td></tr>
+</table>
+          @attr name android.support.v7.appcompat:layout_constraintRight_toLeftOf
+        */
+        public static int ConstraintSet_layout_constraintRight_toLeftOf = 50;
+        /**
+          <p>This symbol is the offset where the {@link android.support.v7.appcompat.R.attr#layout_constraintRight_toRightOf}
+          attribute's value can be found in the {@link #ConstraintSet} array.
+
+
+          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>parent</code></td><td>0</td><td></td></tr>
+</table>
+          @attr name android.support.v7.appcompat:layout_constraintRight_toRightOf
+        */
+        public static int ConstraintSet_layout_constraintRight_toRightOf = 51;
+        /**
+          <p>This symbol is the offset where the {@link android.support.v7.appcompat.R.attr#layout_constraintStart_toEndOf}
+          attribute's value can be found in the {@link #ConstraintSet} array.
+
+
+          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>parent</code></td><td>0</td><td></td></tr>
+</table>
+          @attr name android.support.v7.appcompat:layout_constraintStart_toEndOf
+        */
+        public static int ConstraintSet_layout_constraintStart_toEndOf = 52;
+        /**
+          <p>This symbol is the offset where the {@link android.support.v7.appcompat.R.attr#layout_constraintStart_toStartOf}
+          attribute's value can be found in the {@link #ConstraintSet} array.
+
+
+          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>parent</code></td><td>0</td><td></td></tr>
+</table>
+          @attr name android.support.v7.appcompat:layout_constraintStart_toStartOf
+        */
+        public static int ConstraintSet_layout_constraintStart_toStartOf = 53;
+        /**
+          <p>This symbol is the offset where the {@link android.support.v7.appcompat.R.attr#layout_constraintTop_creator}
+          attribute's value can be found in the {@link #ConstraintSet} array.
+
+
+          <p>Must be an integer value, such as "<code>100</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name android.support.v7.appcompat:layout_constraintTop_creator
+        */
+        public static int ConstraintSet_layout_constraintTop_creator = 54;
+        /**
+          <p>This symbol is the offset where the {@link android.support.v7.appcompat.R.attr#layout_constraintTop_toBottomOf}
+          attribute's value can be found in the {@link #ConstraintSet} array.
+
+
+          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>parent</code></td><td>0</td><td></td></tr>
+</table>
+          @attr name android.support.v7.appcompat:layout_constraintTop_toBottomOf
+        */
+        public static int ConstraintSet_layout_constraintTop_toBottomOf = 55;
+        /**
+          <p>This symbol is the offset where the {@link android.support.v7.appcompat.R.attr#layout_constraintTop_toTopOf}
+          attribute's value can be found in the {@link #ConstraintSet} array.
+
+
+          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>parent</code></td><td>0</td><td></td></tr>
+</table>
+          @attr name android.support.v7.appcompat:layout_constraintTop_toTopOf
+        */
+        public static int ConstraintSet_layout_constraintTop_toTopOf = 56;
+        /**
+          <p>This symbol is the offset where the {@link android.support.v7.appcompat.R.attr#layout_constraintVertical_bias}
+          attribute's value can be found in the {@link #ConstraintSet} array.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name android.support.v7.appcompat:layout_constraintVertical_bias
+        */
+        public static int ConstraintSet_layout_constraintVertical_bias = 57;
+        /**
+          <p>This symbol is the offset where the {@link android.support.v7.appcompat.R.attr#layout_constraintVertical_chainStyle}
+          attribute's value can be found in the {@link #ConstraintSet} array.
+
+
+          <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>spread</code></td><td>0</td><td></td></tr>
+<tr><td><code>spread_inside</code></td><td>1</td><td></td></tr>
+<tr><td><code>packed</code></td><td>2</td><td></td></tr>
+</table>
+          @attr name android.support.v7.appcompat:layout_constraintVertical_chainStyle
+        */
+        public static int ConstraintSet_layout_constraintVertical_chainStyle = 58;
+        /**
+          <p>This symbol is the offset where the {@link android.support.v7.appcompat.R.attr#layout_constraintVertical_weight}
+          attribute's value can be found in the {@link #ConstraintSet} array.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name android.support.v7.appcompat:layout_constraintVertical_weight
+        */
+        public static int ConstraintSet_layout_constraintVertical_weight = 59;
+        /**
+          <p>This symbol is the offset where the {@link android.support.v7.appcompat.R.attr#layout_constraintWidth_default}
+          attribute's value can be found in the {@link #ConstraintSet} array.
+
+
+          <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>spread</code></td><td>0</td><td></td></tr>
+<tr><td><code>wrap</code></td><td>1</td><td></td></tr>
+<tr><td><code>percent</code></td><td>2</td><td></td></tr>
+</table>
+          @attr name android.support.v7.appcompat:layout_constraintWidth_default
+        */
+        public static int ConstraintSet_layout_constraintWidth_default = 60;
+        /**
+          <p>This symbol is the offset where the {@link android.support.v7.appcompat.R.attr#layout_constraintWidth_max}
+          attribute's value can be found in the {@link #ConstraintSet} array.
+
+
+          <p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+<p>May be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>wrap</code></td><td>-2</td><td></td></tr>
+</table>
+          @attr name android.support.v7.appcompat:layout_constraintWidth_max
+        */
+        public static int ConstraintSet_layout_constraintWidth_max = 61;
+        /**
+          <p>This symbol is the offset where the {@link android.support.v7.appcompat.R.attr#layout_constraintWidth_min}
+          attribute's value can be found in the {@link #ConstraintSet} array.
+
+
+          <p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+<p>May be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>wrap</code></td><td>-2</td><td></td></tr>
+</table>
+          @attr name android.support.v7.appcompat:layout_constraintWidth_min
+        */
+        public static int ConstraintSet_layout_constraintWidth_min = 62;
+        /**
+          <p>This symbol is the offset where the {@link android.support.v7.appcompat.R.attr#layout_constraintWidth_percent}
+          attribute's value can be found in the {@link #ConstraintSet} array.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name android.support.v7.appcompat:layout_constraintWidth_percent
+        */
+        public static int ConstraintSet_layout_constraintWidth_percent = 63;
+        /**
+          <p>This symbol is the offset where the {@link android.support.v7.appcompat.R.attr#layout_editor_absoluteX}
+          attribute's value can be found in the {@link #ConstraintSet} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name android.support.v7.appcompat:layout_editor_absoluteX
+        */
+        public static int ConstraintSet_layout_editor_absoluteX = 64;
+        /**
+          <p>This symbol is the offset where the {@link android.support.v7.appcompat.R.attr#layout_editor_absoluteY}
+          attribute's value can be found in the {@link #ConstraintSet} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name android.support.v7.appcompat:layout_editor_absoluteY
+        */
+        public static int ConstraintSet_layout_editor_absoluteY = 65;
+        /**
+          <p>This symbol is the offset where the {@link android.support.v7.appcompat.R.attr#layout_goneMarginBottom}
+          attribute's value can be found in the {@link #ConstraintSet} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name android.support.v7.appcompat:layout_goneMarginBottom
+        */
+        public static int ConstraintSet_layout_goneMarginBottom = 66;
+        /**
+          <p>This symbol is the offset where the {@link android.support.v7.appcompat.R.attr#layout_goneMarginEnd}
+          attribute's value can be found in the {@link #ConstraintSet} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name android.support.v7.appcompat:layout_goneMarginEnd
+        */
+        public static int ConstraintSet_layout_goneMarginEnd = 67;
+        /**
+          <p>This symbol is the offset where the {@link android.support.v7.appcompat.R.attr#layout_goneMarginLeft}
+          attribute's value can be found in the {@link #ConstraintSet} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name android.support.v7.appcompat:layout_goneMarginLeft
+        */
+        public static int ConstraintSet_layout_goneMarginLeft = 68;
+        /**
+          <p>This symbol is the offset where the {@link android.support.v7.appcompat.R.attr#layout_goneMarginRight}
+          attribute's value can be found in the {@link #ConstraintSet} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name android.support.v7.appcompat:layout_goneMarginRight
+        */
+        public static int ConstraintSet_layout_goneMarginRight = 69;
+        /**
+          <p>This symbol is the offset where the {@link android.support.v7.appcompat.R.attr#layout_goneMarginStart}
+          attribute's value can be found in the {@link #ConstraintSet} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name android.support.v7.appcompat:layout_goneMarginStart
+        */
+        public static int ConstraintSet_layout_goneMarginStart = 70;
+        /**
+          <p>This symbol is the offset where the {@link android.support.v7.appcompat.R.attr#layout_goneMarginTop}
+          attribute's value can be found in the {@link #ConstraintSet} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name android.support.v7.appcompat:layout_goneMarginTop
+        */
+        public static int ConstraintSet_layout_goneMarginTop = 71;
         /** Attributes that can be used with a CoordinatorLayout.
            <p>Includes the following attributes:</p>
            <table>
@@ -8111,8 +11240,8 @@ containing a value of this type.
            @see #FontFamily_fontProviderQuery
          */
         public static final int[] FontFamily = {
-            0x7f01016e, 0x7f01016f, 0x7f010170, 0x7f010171,
-            0x7f010172, 0x7f010173
+            0x7f0101a7, 0x7f0101a8, 0x7f0101a9, 0x7f0101aa,
+            0x7f0101ab, 0x7f0101ac
         };
         /**
           <p>This symbol is the offset where the {@link android.support.v7.appcompat.R.attr#fontProviderAuthority}
@@ -8226,8 +11355,8 @@ containing a value of this type.
            @see #FontFamilyFont_fontWeight
          */
         public static final int[] FontFamilyFont = {
-            0x01010532, 0x01010533, 0x0101053f, 0x7f010174,
-            0x7f010175, 0x7f010176
+            0x01010532, 0x01010533, 0x0101053f, 0x7f0101ad,
+            0x7f0101ae, 0x7f0101af
         };
         /**
           <p>This symbol is the offset where the {@link android.R.attr#font}
@@ -8331,6 +11460,25 @@ containing a value of this type.
           @attr name android.support.v7.appcompat:foregroundInsidePadding
         */
         public static int ForegroundLinearLayout_foregroundInsidePadding = 2;
+        /** Attributes that can be used with a LinearConstraintLayout.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #LinearConstraintLayout_android_orientation android:orientation}</code></td><td></td></tr>
+           </table>
+           @see #LinearConstraintLayout_android_orientation
+         */
+        public static final int[] LinearConstraintLayout = {
+            0x010100c4
+        };
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#orientation}
+          attribute's value can be found in the {@link #LinearConstraintLayout} array.
+          @attr name android:orientation
+        */
+        public static int LinearConstraintLayout_android_orientation = 0;
         /** Attributes that can be used with a LinearLayoutCompat.
            <p>Includes the following attributes:</p>
            <table>

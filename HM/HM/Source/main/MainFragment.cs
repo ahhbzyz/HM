@@ -11,6 +11,7 @@ using Android.Runtime;
 using Android.Util;
 using Android.Views;
 using Android.Widget;
+using HM.Source.login;
 using HM.Source.payment;
 using HM.Source.search;
 
@@ -53,6 +54,9 @@ namespace HM
             }
             if (e.Position == 0) {
                 Intent intent = new Intent(Context, typeof(PaymentAcitivity));
+                Context.StartActivity(intent);
+            } else if (e.Position == 7) {
+                Intent intent = new Intent(Context, typeof(CalendarActivity));
                 Context.StartActivity(intent);
             } else {
                 Intent intent = new Intent(Context, typeof(SearchActivity));
