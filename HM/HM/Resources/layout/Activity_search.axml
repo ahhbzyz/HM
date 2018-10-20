@@ -65,14 +65,14 @@
             android:layout_height="wrap_content"
             android:layout_width="match_parent">
             
-                    <ImageView
+                    <View
+                android:background="@android:color/white"
                         android:id="@+id/img_bar"
                         android:layout_gravity="center_horizontal"
                         android:layout_marginStart="4dp"
                         android:layout_centerVertical="true"
-                        android:layout_width="24dp"
-                        android:layout_height="24dp"
-                        android:src="@android:drawable/ic_menu_search"/>
+                        android:layout_width="28dp"
+                        android:layout_height="20dp"/>
             
              <android.support.v7.widget.RecyclerView
                 android:id="@+id/recyclerView"

@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using Android.Support.V4.Content;
 using Android.Support.V7.Widget;
 using Android.Views;
 using Android.Widget;
@@ -59,8 +60,20 @@ namespace HM.Source.search
             vh.tvAddress.Text = mSearchResults[position].address;
             vh.tvPhone.Text = mSearchResults[position].phone;
             vh.tvDistance.Text = mSearchResults[position].distance;
-            vh.imgFav.Selected = mSearchResults[position].isFav;
-
+            if (mSearchResults[position].isFav) {
+                vh.imgFav.SetImageResource(Resource.Mipmap.star_select);
+            }
+            else
+            {
+                vh.imgFav.SetImageResource(Resource.Mipmap.star);
+            }
+            vh.imgFav.Click += (o, e) => {
+                if (holder.AdapterPosition < 0) {
+                    return;
+                }
+                mSearchResults[holder.AdapterPosition].isFav = !mSearchResults[holder.AdapterPosition].isFav;
+                NotifyDataSetChanged();
+            };
         }
     }
 }

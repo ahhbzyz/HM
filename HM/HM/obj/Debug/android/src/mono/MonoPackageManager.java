@@ -106,7 +106,6 @@ public class MonoPackageManager {
 class MonoPackageManager_Resources {
 	public static final String[] Assemblies = new String[]{
 		/* We need to ensure that "HM.dll" comes first in this list. */
-		"HM.dll",
 		"Glide.dll",
 		"Material-Calendar-View-for-Xamarin.dll",
 		"Newtonsoft.Json.dll",

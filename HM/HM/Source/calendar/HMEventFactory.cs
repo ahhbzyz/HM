@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using Java.Text;
 using Java.Util;
 
 namespace HM.Source.calendar
@@ -10,9 +11,9 @@ namespace HM.Source.calendar
         {
         }
 
-        public static Dictionary<Calendar, List<HMEvent>> produceEvents() {
+        public static Dictionary<string, List<HMEvent>> produceEvents() {
 
-            Dictionary<Calendar, List<HMEvent>> dict = new Dictionary<Calendar, List<HMEvent>>();
+            Dictionary<string, List<HMEvent>> dict = new Dictionary<string, List<HMEvent>>();
 
             // one day
             List<HMEvent> ea = new List<HMEvent>();
@@ -21,7 +22,7 @@ namespace HM.Source.calendar
                 name = "Pay electricty bill",
                 location = "home",
                 duraion = "45m",
-                occurence = HMEvent.Occurence.weekly,
+                occurence = "weekly",
                 desc = "This is a notice"
             };
             Calendar cEa1 = Calendar.GetInstance(new Locale("en_AU"));
@@ -40,7 +41,7 @@ namespace HM.Source.calendar
                 name = "JD MJ 101 Meeting",
                 location = "Cafe Coffe",
                 duraion = "1h 30m",
-                occurence = HMEvent.Occurence.weekly,
+                occurence = "weekly",
                 desc = "This is a notice"
             };
             Calendar cEa2 = Calendar.GetInstance(new Locale("en_AU"));
@@ -62,7 +63,7 @@ namespace HM.Source.calendar
                 name = "Painting company comming",
                 location = "home",
                 duraion = "15m",
-                occurence = HMEvent.Occurence.monthly,
+                occurence = "monthly",
                 desc = "This is a notice"
             };
             Calendar cEb1 = Calendar.GetInstance(new Locale("en_AU"));
@@ -77,10 +78,10 @@ namespace HM.Source.calendar
             eb1.date = cEb1;
             eb.Add(eb1);
 
-
-            dict.Add(cEa1, ea);
-            dict.Add(cEb1, eb);
-
+            String cEa1str = new SimpleDateFormat("MM-dd-yyyy").Format(cEa1.Time);
+            String cEb1str = new SimpleDateFormat("MM-dd-yyyy").Format(cEb1.Time);
+            dict.Add(cEa1str, ea);
+            dict.Add(cEb1str, eb);
             return dict;
         }
     }

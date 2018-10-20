@@ -10,10 +10,7 @@ namespace HM.Source.calendar
         public string location;
         public string duraion;
         public string desc;
-        public Occurence occurence; 
-        public enum Occurence {
-            daily, weekly, monthly
-        }
+        public string occurence; 
     }
 
 }

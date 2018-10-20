@@ -1,5 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
+using Android.App;
+using Android.Content;
+using Android.Support.Design.Widget;
 using Android.Support.V7.Widget;
 using Android.Views;
 using Android.Widget;
@@ -10,10 +13,16 @@ namespace HM.Source.calendar
     public class CalendarAdapter : RecyclerView.Adapter
     {
         private List<HMEvent> mData;
+        private Activity mActivity;
+        private BottomSheetDialog mDialog;
+        public static readonly int EDIT = 1;
+        public static readonly int ADD = 2;
 
-        public CalendarAdapter(List<HMEvent> list)
+        public CalendarAdapter(Activity activity, BottomSheetDialog dialog, List<HMEvent> list)
         {
             mData = list;
+            mDialog = dialog;
+            mActivity = activity;
             NotifyDataSetChanged();
         }
 
@@ -67,8 +76,34 @@ namespace HM.Source.calendar
             vh.tvLocation.Text = mData[position].location;
             vh.tvDesc.Text = mData[position].desc;
             vh.delete.Click += (o, e) => {
+                if (position > ItemCount - 1) {
+                    return;
+                }
                 mData.Remove(mData[position]);
                 NotifyDataSetChanged();
+                if (mData.Count == 0) {
+                    mDialog.Dismiss();
+                }
+            };
+            vh.edit.Click += (o, e) =>
+            {
+                HMEvent data = mData[position];
+                Intent intent = new Intent(mActivity, typeof(CalendarEditAcitvity));
+                intent.PutExtra("title", "Edit event");
+                intent.PutExtra("name", data.name);
+                intent.PutExtra("date", data.date);
+                intent.PutExtra("time", time);
+                intent.PutExtra("duration", data.duraion);
+                intent.PutExtra("location", data.location);
+                intent.PutExtra("desc", data.desc);
+                intent.PutExtra("occ", data.occurence.ToString());
+                intent.PutExtra("index", position);
+                mActivity.StartActivityForResult(intent, EDIT);
+            };
+            vh.add.Click += (o, e) =>
+            {
+                Intent intent = new Intent(mActivity, typeof(CalendarEditAcitvity));
+                mActivity.StartActivityForResult(intent, ADD);
             };
             if (position == mData.Count - 1) {
                 vh.add.Visibility = ViewStates.Visible;

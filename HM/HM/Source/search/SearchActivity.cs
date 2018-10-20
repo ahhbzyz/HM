@@ -50,7 +50,7 @@ namespace HM.Source.search
 
         private void SetUpBar() {
             LinearLayout listLayout = FindViewById<LinearLayout>(Resource.Id.ll_list);
-            ImageView imgBar = FindViewById<ImageView>(Resource.Id.img_bar);
+            View imgBar = FindViewById<View>(Resource.Id.img_bar);
             int minY = 0;
             listLayout.ViewTreeObserver.GlobalLayout += (s, e) =>
             {

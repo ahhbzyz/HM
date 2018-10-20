@@ -67,7 +67,7 @@
         android:layout_margin="24dp"
         android:layout_alignParentEnd="true"
         android:id="@+id/img_fav"
-        android:src="@android:drawable/ic_menu_save"
+        android:src="@mipmap/star"
         android:layout_width="20dp"
         android:layout_height="20dp"/>
     

@@ -4,6 +4,9 @@ using Android.Content;
 using Android.Widget;
 using Java.Lang;
 using System.Collections.Generic;
+using HM.Source.login;
+using HM.Source.search;
+using HM.Source.payment;
 
 namespace HM
 {

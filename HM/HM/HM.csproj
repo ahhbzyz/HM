@@ -152,6 +152,7 @@
     <Compile Include="Source\calendar\HMEvent.cs" />
     <Compile Include="Source\calendar\HMEventFactory.cs" />
     <Compile Include="Source\calendar\CalendarAdapter.cs" />
+    <Compile Include="Source\calendar\CalendarEditAcitvity.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
@@ -198,6 +199,9 @@
     <AndroidResource Include="Resources\layout\Activity_payment_edit.axml" />
     <AndroidResource Include="Resources\layout\Activity_calendar.axml" />
     <AndroidResource Include="Resources\layout\Layout_item_event.axml" />
+    <AndroidResource Include="Resources\layout\Activity_calendar_edit.axml" />
+    <AndroidResource Include="Resources\mipmap-xxhdpi\star_select.png" />
+    <AndroidResource Include="Resources\mipmap-xxhdpi\star.png" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\drawable\" />
