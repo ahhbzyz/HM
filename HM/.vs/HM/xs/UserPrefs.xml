@@ -1,9 +1,5 @@
 ﻿<Properties StartupConfiguration="{D0E8CAD2-A98A-43DA-AA7C-F67626492A47}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="HM/Source/search/SearchAdapter.cs">
-    <Files>
-      <File FileName="HM/Source/search/SearchAdapter.cs" Line="1" Column="1" />
-    </Files>
-  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.ItemProperties.HM AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.Android_Accelerated_Oreo" AndroidDesignerPreferredTheme="MyTheme" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

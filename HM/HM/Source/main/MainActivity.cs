@@ -8,6 +8,7 @@ using System.Collections.Generic;
 using HM.Source.payment;
 using HM.Source.search;
 using Android.Views;
+using HM.Source.calendar;
 
 namespace HM
 {

@@ -1,3 +1,57 @@
+HM.Category, HM;md5e141b617430c18caef0b3d28d69cb6c3.Category
+HM.Category;md5e141b617430c18caef0b3d28d69cb6c3.Category
+hm.Category;md5e141b617430c18caef0b3d28d69cb6c3.Category
+HM.MainActivity, HM;md5e141b617430c18caef0b3d28d69cb6c3.MainActivity
+HM.MainActivity;md5e141b617430c18caef0b3d28d69cb6c3.MainActivity
+hm.MainActivity;md5e141b617430c18caef0b3d28d69cb6c3.MainActivity
+HM.MainAdpater, HM;md5e141b617430c18caef0b3d28d69cb6c3.MainAdpater
+HM.MainAdpater;md5e141b617430c18caef0b3d28d69cb6c3.MainAdpater
+hm.MainAdpater;md5e141b617430c18caef0b3d28d69cb6c3.MainAdpater
+HM.MainFragment, HM;com.companyname.HM.MainFragment
+HM.MainFragment;com.companyname.HM.MainFragment
+com.companyname.HM.MainFragment;com.companyname.HM.MainFragment
+HM.SpinnerAdapter, HM;md5e141b617430c18caef0b3d28d69cb6c3.SpinnerAdapter
+HM.SpinnerAdapter;md5e141b617430c18caef0b3d28d69cb6c3.SpinnerAdapter
+hm.SpinnerAdapter;md5e141b617430c18caef0b3d28d69cb6c3.SpinnerAdapter
+HM.PaymentSpinnerAdapter, HM;md5e141b617430c18caef0b3d28d69cb6c3.PaymentSpinnerAdapter
+HM.PaymentSpinnerAdapter;md5e141b617430c18caef0b3d28d69cb6c3.PaymentSpinnerAdapter
+hm.PaymentSpinnerAdapter;md5e141b617430c18caef0b3d28d69cb6c3.PaymentSpinnerAdapter
+HM.Source.calendar.CalendarActivity, HM;com.companyname.HM.Source.calendar.CalendarActivity
+HM.Source.calendar.CalendarActivity;com.companyname.HM.Source.calendar.CalendarActivity
+com.companyname.HM.Source.calendar.CalendarActivity;com.companyname.HM.Source.calendar.CalendarActivity
+HM.Source.calendar.CalendarAdapter, HM;md54c256ff4ed22e8cb20eeb4a2b4f8a8de.CalendarAdapter
+HM.Source.calendar.CalendarAdapter;md54c256ff4ed22e8cb20eeb4a2b4f8a8de.CalendarAdapter
+hm.source.calendar.CalendarAdapter;md54c256ff4ed22e8cb20eeb4a2b4f8a8de.CalendarAdapter
+HM.Source.calendar.CalendarAdapter+VH, HM;md54c256ff4ed22e8cb20eeb4a2b4f8a8de.CalendarAdapter_VH
+HM.Source.calendar.CalendarAdapter.VH;md54c256ff4ed22e8cb20eeb4a2b4f8a8de.CalendarAdapter_VH
+hm.source.calendar.CalendarAdapter_VH;md54c256ff4ed22e8cb20eeb4a2b4f8a8de.CalendarAdapter_VH
+HM.Source.calendar.CalendarEditAcitvity, HM;com.companyname.HM.Source.calendar.CalendarEditAcitvity
+HM.Source.calendar.CalendarEditAcitvity;com.companyname.HM.Source.calendar.CalendarEditAcitvity
+com.companyname.HM.Source.calendar.CalendarEditAcitvity;com.companyname.HM.Source.calendar.CalendarEditAcitvity
+HM.Source.payment.PaymentAcitivity, HM;com.companyname.HM.Source.payment.PaymentAcitivity
+HM.Source.payment.PaymentAcitivity;com.companyname.HM.Source.payment.PaymentAcitivity
+com.companyname.HM.Source.payment.PaymentAcitivity;com.companyname.HM.Source.payment.PaymentAcitivity
+HM.Source.payment.PaymentAdapter, HM;md507a5ccc0d503142c74d6f404119a6c74.PaymentAdapter
+HM.Source.payment.PaymentAdapter;md507a5ccc0d503142c74d6f404119a6c74.PaymentAdapter
+hm.source.payment.PaymentAdapter;md507a5ccc0d503142c74d6f404119a6c74.PaymentAdapter
+HM.Source.payment.Payment, HM;md507a5ccc0d503142c74d6f404119a6c74.Payment
+HM.Source.payment.Payment;md507a5ccc0d503142c74d6f404119a6c74.Payment
+hm.source.payment.Payment;md507a5ccc0d503142c74d6f404119a6c74.Payment
+HM.Source.payment.PaymentEditActivity, HM;com.companyname.HM.Source.payment.PaymentEditActivity
+HM.Source.payment.PaymentEditActivity;com.companyname.HM.Source.payment.PaymentEditActivity
+com.companyname.HM.Source.payment.PaymentEditActivity;com.companyname.HM.Source.payment.PaymentEditActivity
+HM.Source.login.LoginAcitivity, HM;com.companyname.HM.Source.login.LoginAcitivity
+HM.Source.login.LoginAcitivity;com.companyname.HM.Source.login.LoginAcitivity
+com.companyname.HM.Source.login.LoginAcitivity;com.companyname.HM.Source.login.LoginAcitivity
+HM.Source.search.SearchActivity, HM;com.companyname.HM.Source.search.SearchActivity
+HM.Source.search.SearchActivity;com.companyname.HM.Source.search.SearchActivity
+com.companyname.HM.Source.search.SearchActivity;com.companyname.HM.Source.search.SearchActivity
+HM.Source.search.SearchAdapter, HM;md558bc5bee9a40e13358734af70ba46d33.SearchAdapter
+HM.Source.search.SearchAdapter;md558bc5bee9a40e13358734af70ba46d33.SearchAdapter
+hm.source.search.SearchAdapter;md558bc5bee9a40e13358734af70ba46d33.SearchAdapter
+HM.Source.search.SearchAdapter+VH, HM;md558bc5bee9a40e13358734af70ba46d33.SearchAdapter_VH
+HM.Source.search.SearchAdapter.VH;md558bc5bee9a40e13358734af70ba46d33.SearchAdapter_VH
+hm.source.search.SearchAdapter_VH;md558bc5bee9a40e13358734af70ba46d33.SearchAdapter_VH
 Com.Bumptech.Glide.Load.Engine.Cache.IMemoryCacheResourceRemovedListenerImplementor, Glide;mono.com.bumptech.glide.load.engine.cache.MemoryCache_ResourceRemovedListenerImplementor
 Com.Bumptech.Glide.Load.Engine.Cache.IMemoryCacheResourceRemovedListenerImplementor;mono.com.bumptech.glide.load.engine.cache.MemoryCache_ResourceRemovedListenerImplementor
 mono.com.bumptech.glide.load.engine.cache.MemoryCache_ResourceRemovedListenerImplementor;mono.com.bumptech.glide.load.engine.cache.MemoryCache_ResourceRemovedListenerImplementor

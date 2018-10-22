@@ -10,13 +10,12 @@ using CalendarView = Com.Applandeo.Materialcalendarview.CalendarView;
 using Android.Support.Constraints;
 using Java.Util;
 using Android.Graphics.Drawables;
-using HM.Source.calendar;
 using Android.Support.Design.Widget;
 using Android.Support.V7.Widget;
 using Android.Content;
 using Java.Text;
 
-namespace HM.Source.login
+namespace HM.Source.calendar
 {
     [Activity(Name = "com.companyname.HM.Source.calendar.CalendarActivity")]
     public class CalendarActivity : Activity, IDialogInterfaceOnDismissListener
